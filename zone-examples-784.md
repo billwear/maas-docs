@@ -1,6 +1,6 @@
 This page provides several examples of MAAS zone usage.
 
-See [Concepts and terms](/t/concepts-and-terms/785#heading--zones) to understand zones and [Zones](/t/availability-zones/820) for how to work with them.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--zones) to understand more about zones and [Zones](/t/availability-zones/820) for how to work with them.
 
 <h2 id="heading--fault-tolerance">Fault tolerance</h2>
 
