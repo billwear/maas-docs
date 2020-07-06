@@ -1,4 +1,4 @@
-This page provides several examples of MAAS zone usage.
+This page provides several useful examples of MAAS zone usage.
 
 See [Concepts and terms](/t/concepts-and-terms/785#heading--zones) to understand more about zones and [Zones](/t/availability-zones/820) for how to work with them.
 
