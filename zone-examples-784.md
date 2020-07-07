@@ -4,7 +4,7 @@ See [Concepts and terms](/t/concepts-and-terms/785#heading--zones) to understand
 
 <h2 id="heading--fault-tolerance">Fault tolerance</h2>
 
-Fault tolerance is "the property that enables a system to continue operating properly in the event of the failure of (or one or more faults within) some of its components". To assist with this, multiple MAAS zones can be employed.
+Fault tolerance is "the property that enables a system to continue operating properly in the event of the failure of (or one or more faults within) some of its components". To help create fault tolerance, multiple MAAS zones can be employed.
 
 For this, a zone can be defined in different ways. It can be based on power supply for instance, or it can represent a portion of your network or an entire data centre location.
 
