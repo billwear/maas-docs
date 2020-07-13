@@ -1,5 +1,12 @@
 This section contains a collection of tips, tricks, and traps which may help solve unusual or infrequent issues that come up.
 
+#### What would you like to do?
+
+* [Migrate an existing snap installation to use a local PostgreSQL server](/t/tips-tricks-and-traps/1506#heading--migrating-maas)
+* [Manually export the MAAS database](/t/tips-tricks-and-traps/1506#heading--manual-export)
+* [Network boot an IBM Power server](/t/tips-tricks-and-traps/1506#heading--ibm-power-server-pxe-boot)
+* [Eliminate MAAS and LXD DNS & DHCP conflicts](/t/tips-tricks-and-traps/1506#heading--maas-lxd-network-conflicts)
+
 <h2 id="heading--migrating-maas">Migrating an existing snap installation</h2>
 
 If you're currently running MAAS from a snap in `all` mode, you can easily migrate your database to a local PostgreSQL server with the following command:
@@ -55,3 +62,11 @@ Some IBM Power server servers have OPAL firmware which uses an embedded Linux di
 When no specific interface is assigned as the network boot device, petitboot has a known issue which is detailed in [LP#1852678](https://bugs.launchpad.net/ubuntu-power-systems/+bug/1852678), specifically comment #24, that can cause issues when deploying systems using MAAS, since in this case all active NICs are used for PXE boot with the same address.
 
 So, when using IBM Power servers with multiple NICs that can network boot, it's strongly recommended to configure just a single <specific> NIC as the network boot device via **Petitboot**.
+
+<h2 id="heading--maas-lxd-network-conflicts">Resolve DNS conflicts between LXD and MAAS</h2>
+
+If you get into a situation where MAAS and LXD are both managing DNS on your MAAS network, there's a simple fix.  You can turn off LXD's DNS management with the following command:
+
+````
+lxc network set lxdbr0 dns.mode=none
+````
