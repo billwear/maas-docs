@@ -16,7 +16,7 @@ If you have created a VM host, you will want to create and delete virtual machin
 
 While on VM host's details view, select 'Compose' from the 'Take action' drop-down menu to compose a machine.
 
-![compose-machine|690x276](upload://l2xt3r8dfg1wJ62NTvwJg1qprzK.jpeg) 
+![compose-machine|690x276](https://discourse.maas.io/uploads/default/optimized/1X/937726bb839eefb28e9297e8f97bd48556c1014c_2_690x276.jpeg) 
 
 You can choose which storage pool to use from a drop-down list. 
 
@@ -24,7 +24,7 @@ Click the 'Compose machine' button when you're finished. MAAS will present the V
 
 MAAS will deduct the new machine's resources from the VM host's resources:
 
-![deduct-storage|690x359](upload://8tkmcNuVPB1LUoGgxhaZjOLVdKH.jpeg) 
+![deduct-storage|690x359](https://discourse.maas.io/uploads/default/optimized/1X/3b621ab0e7b4f6a86963d2b7c50b677b815956ab_2_690x359.jpeg) 
 
 <h2 id="heading--adding-a-vm-from-the-cli">Adding a VM from the CLI</h2>
 
@@ -167,7 +167,7 @@ Example output:
 
 To delete a VM, delete it as you would any other MAAS machine. Select the desired machine from the list of machines and select 'Delete' from the 'Take Action' menu.
 
-![delete-vm|690x400](upload://7xkX3Ha5sv1riMDHEXkuGW7LXd6.jpeg) 
+![delete-vm|690x400](https://discourse.maas.io/uploads/default/optimized/1X/34d3f5fcd8a86bfa827bab5383209ea9ca117f50_2_690x400.jpeg) 
 
 <h2 id="heading--delete-a-vm">Deleting a VM with the CLI</h2>
 

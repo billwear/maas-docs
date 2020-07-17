@@ -32,7 +32,7 @@ MAAS chooses the latest Ubuntu LTS release as the default image for commissionin
 
 To commission, on the 'Machines' page, select a machine and choose 'Commission' under the 'Take action' drop-down menu.
 
-![commission](upload://dzhPxfLixllbHey3O18C1AbUDFM.png)
+![commission](https://discourse.maas.io/uploads/default/optimized/1X/5f196ca5e175e3f37d7cffbb2341fb0ee9cee16a_2_690x98.png)
 
 You have the option of selecting some extra parameters (checkboxes) and performing hardware tests.
 
@@ -48,7 +48,7 @@ These options include:
 
 -   **Configure HBA**: Runs scripts tagged with 'configure_hba'. As above, see [Testing scripts](/t/commissioning-and-hardware-testing-scripts/833#heading--automatic-script-selection-by-hardware-type) for further details.
 
-![confirm commission](upload://dzhPxfLixllbHey3O18C1AbUDFM.png)
+![confirm commission](https://discourse.maas.io/uploads/default/optimized/1X/5f196ca5e175e3f37d7cffbb2341fb0ee9cee16a_2_690x98.png)
 
 Click the Hardware tests field to reveal a drop-down list of tests to add and run during commissioning. See [Hardware testing](/t/hardware-testing/826)) for more information on hardware testing scripts.
 
@@ -66,7 +66,7 @@ Once commissioned, you may consider [creating or applying a tag](/t/tags/834) to
 
 If you are using the NUMA architecture, MAAS version 2.7 guarantees that machines are assigned to a single NUMA node that contains all the machine's resoures.  Note that you must recommission NUMA/SR-IOV machines that were previously commissioned under version 2.6 or earlier.
 
-![Screenshot%20from%202020-02-04%2017-12-18|690x452](upload://hAz8MLGgWsWGIQ2D77MlFynQYe0.png) 
+![Screenshot%20from%202020-02-04%2017-12-18|690x452](https://discourse.maas.io/uploads/default/optimized/1X/7b47235ff57a570ccba6a6ed09186a3d7483f5a4_2_690x452.png) 
 
 When using these nodes, you can specify a node index for interfaces and physical block devices.  MAAS will display the NUMA node index and details, depending upon your configuration, to include the count of NUMA nodes, number of CPU cores, memory, NICs, and node spaces for bonds and block devices.  You can also filter machines by CPU cores, memory, subnet, VLAN, fabric, space, storage, and RAID, among others.
 
@@ -112,11 +112,11 @@ Once commissioned, you can configure the machine's network interface(s). Specifi
 
 From a machine's 'Interfaces' page, click the menu icon for the interface to be edited and select 'Edit Physical' from the resulting menu:
 
-![edit interface](upload://9DhMDmH6lG95kXqRUmeWOkVNoS1.png)
+![edit interface](https://discourse.maas.io/uploads/default/optimized/1X/438475b8906736b45fc809cd105a56be5052397d_2_690x124.png)
 
 The following window will appear:
 
-![configure interface](upload://g4X5clXGOsfDccGfFsdIlgKl9YW.png)
+![configure interface](https://discourse.maas.io/uploads/default/optimized/1X/70b21d256df52399ac7ab09c3051f4bf011da55e_2_690x431.png)
 
 Four modes determine how a subnet address is assigned when MAAS deploys the machine. You can select one of these modes by clicking on the 'IP mode' drop-down menu.
 
@@ -140,7 +140,7 @@ In the case of our MAAS [hospital example](/t/give-me-an-example-of-maas/1314), 
 
 A bond is created by selecting more than one interface and clicking the now-active 'Create bond' button:
 
-![configure setbond](upload://hXfhlIomj7TD9IeJirTRMsZP06X.png)
+![configure setbond](https://discourse.maas.io/uploads/default/optimized/1X/7dd772c961c9f6f871f657b0397646446a4e23e7_2_690x125.png)
 
 After clicking the 'Create bond' button, the bond configuration pane will appear.
 
@@ -148,7 +148,7 @@ From the bond configuration pane, you can rename the bond, select a bond mode (s
 
 The interfaces aggregated into the bond interface are listed below the 'Tags' field. Use the 'Primary' column to select the interface to act as the primary device.
 
-![configure bond](upload://f4cNrezYPBoF7aURoXlIuWsk84m.png)
+![configure bond](https://discourse.maas.io/uploads/default/optimized/1X/699a55f98f3e1a81da75d1595e40bb74c99aff8e_2_690x357.png)
 
 You can select from the following bonding modes on the 'Bond mode' drop-down menu:
 
@@ -176,7 +176,7 @@ The MAC address defaults to the MAC address of the primary interface.
 
 A network bridge may be useful if you intend to put virtual machines or containers on the machine.  You can create a bridge by selecting an interface and clicking the now-active 'Create bridge' button. A form will appear that allows you to configure a MAC address, STP, and an appropriate tag.
 
-![configure bridge](upload://iP97jhwQ5Ua5c92vEJW8eevt5aw.png)
+![configure bridge](https://discourse.maas.io/uploads/default/optimized/1X/83ef3d6f40d5b558396d96717dd2822fc1ce8b68_2_690x308.png)
 
 Press the 'Save' button when you're done.
 

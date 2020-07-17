@@ -17,11 +17,11 @@ You **must** [configure your network](/t/vm-host-networking/1526) to support a V
 
 After installing MAAS, the 'KVM' page is typically empty:
 
-![kvm-open-screen|638x321](upload://zG2Jg6P7iEbakdEQtGVzm5WcY9l.jpeg) 
+![kvm-open-screen|638x321](https://discourse.maas.io/uploads/default/original/1X/fa0cc573f34cb23ca0ac026e97ef5b618ff1fed3.jpeg) 
 
 If you want to add a [libvirt](https://ubuntu.com/server/docs/virtualization-libvirt) or LXD VM host to a machine which is already installed, you can do so with the 'Add KVM' button:
 
-![new-kvm-add|690x348](upload://3DpeWRm4ViOYEilw3Oqcr8zTcve.jpeg) 
+![new-kvm-add|690x348](https://discourse.maas.io/uploads/default/optimized/1X/197ae57b89b32546cf054fff49452f9025354af8_2_690x348.jpeg) 
 
 Here, 'Virsh address' typically looks like the following for libvirt:
 
@@ -58,6 +58,6 @@ The following shows theoretical examples of these ratios and how they affect phy
 -   `32 physical CPU cores * 10.0 multiplier  = 320 virtual CPU cores`
 -   `128GB physical memory  * 5.5 multiplier  = 704G virtual Memory`
 
-![kvm-overcommit|690x269](upload://5EQAjeO5V8UDfoqNLbzG0UJBuag.jpeg) 
+![kvm-overcommit|690x269](https://discourse.maas.io/uploads/default/optimized/1X/27a8f21392af3d29a500e33f99e1f79c578cf29c_2_690x269.jpeg) 
 
 Overcommitting resources allows a user to compose many MAAS-managed machines without worrying about the physical limitations of the host. For example, on a physical host with four cores and 12 GB of memory, you could compose four libvirt machines, each using two cores and 4 GB of memory.  This arrangement overcommits the available physical resources. Provided you never run all four VMs simultaneously, you would have all the benefits of MAAS-managed VMs without over-taxing your host.

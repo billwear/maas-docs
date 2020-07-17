@@ -27,15 +27,15 @@ Once MAAS is working to the point of adding machines, you'll probably want to un
 
 When MAAS enlists a machine, it first contacts the DHCP server, so that the machine can be assigned an IP address.  An IP address is necessary to download a kernel and initrd via TFTP, since these functions can't accept domain names.  Once the machine has a bootable kernel, MAAS boots it:
 
-![tftp-download-boot|618x500](upload://gYpGcbld7T1mvVxpLP9kulD737F.jpeg) 
+![tftp-download-boot|618x500](https://discourse.maas.io/uploads/default/optimized/1X/76f7113545e6950fec60bdeac06cfaf79b14b3ff_2_618x500.jpeg) 
 
 Next, initrd mounts a Squashfs image, ephemerally via HTTP, so that cloud-init can execute:
 
-![squashfs|623x500](upload://bqfDCF8M9OW5nH4jF7EYbROUSVA.jpeg) 
+![squashfs|623x500](https://discourse.maas.io/uploads/default/optimized/1X/500f9bd2d070790a4007085705035366bee88a4a_2_623x500.jpeg) 
 
 Finally, cloud-init runs enlistment and setup scripts:
 
-![cloud-init|613x500](upload://r2Fy5Bh5IXsINgUfy4z0qDfhmyv.jpeg) 
+![cloud-init|613x500](https://discourse.maas.io/uploads/default/optimized/1X/bd87f78c8ee668a22640bf15607c9e3e532d46bb_2_613x500.jpeg) 
 
 The enlistment scripts send information about the machine to the region API server, including the architecture, MAC address and other details.  The API server, in turn, stores these details in the database. This information-gathering process is known as [automatic discovery or network discovery](/t/network-discovery/758).
 
