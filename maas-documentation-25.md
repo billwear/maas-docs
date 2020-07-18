@@ -2,9 +2,9 @@ MAAS is **Metal As A Service**, a service that lets you treat physical servers l
 
 #### Quick questions you might have:
 
-* [What is MAAS -- and what does it really do for me?](/t/what-is-maas/840)
+* [What is MAAS -- and what does it really do for me?](/t/about-maas/840)
 * [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas/1314)
-* [How does MAAS work, in detail?](/t/what-is-maas/840#heading--how-maas-works)
+* [How does MAAS work, in detail?](/t/about-maas/840#heading--how-maas-works)
 * [What concepts might I need to understand before starting?](/t/concepts-and-terms/785)
 * [Can I just install it and try it for myself?](/t/explore-maas/787)
 
@@ -47,7 +47,7 @@ MAAS is **Metal As A Service**, a service that lets you treat physical servers l
 
 ### Installing MAAS
 
-- [Requirements](/t/what-is-maas/789)
+- [Requirements](/t/about-maas/789)
 - [Installation](https://maas.io/docs/install-from-a-snap)
 - [Configuration journey](https://maas.io/docs/configuration-journey)
 - [Setup checklist](/t/installation-and-configuration-checklist/750)
