@@ -163,19 +163,6 @@ To set up PostgreSQL, even if it's running on a different machine, you can use t
 
 Don't worry; if you leave out any of the database parameters, you'll be prompted for those details.
 
-<h3 id="heading--rack-setup">Adding additional rack servers</h3>
-A common setup in production environments is to have rack controllers local to each rack. To add a
-rack controller, install the operating system and them:
-
-    sudo snap install maas --channel=2.8
-    sudo maas init rack
-
-[note]
-You will be asked for the following input:
-- `MAAS URL`: The MAAS URL for the region controller.
-- `Secret`: The Shared Secret from the controller. See [bellow](/t/maas-installation-from-a-snap/773#heading--shared-secret) where this can be found.
-[/note]
-
 <h2 id="heading--service-status">Checking MAAS service status</h2>
 
 You can check the status of running services with:
@@ -208,7 +195,7 @@ The following demonstrates the `region+rack` mode, a popular initialisation choi
 `maas` will ask for the MAAS URL:
 
     MAAS URL [default=http://10.55.60.1:5240/MAAS]: http://192.168.122.1:5240/MAAS
-### Setting up PostgreSQL from scratch
+
 If you also need to create an admin user, you can use:
 
     sudo maas createadmin
@@ -236,9 +223,6 @@ All run modes (except `none`) prompt for a MAAS URL, interpreted differently dep
 <h2 id="heading--shared-secret">Shared secret</h2>
 
 The 'rack' and 'region+rack' modes will additionally ask for a shared secret that will allow the new rack controller to register with the region controller.
-This shared key is stored in the MAAS region controller server:
-- `For MAAS 2.7.x`: /var/snap/maas/current/var/lib/maas/secret
-- `For MAAS 2.8.x`: /var/snap/maas/common/maas/secret
 
 <h2 id="heading--reinitialising-maas">Reinitialising MAAS</h2>
 

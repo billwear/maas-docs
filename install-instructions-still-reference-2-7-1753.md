@@ -1,1 +1,0 @@
-https://maas.io/install still references 2.7 ... any reason for that?

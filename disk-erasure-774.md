@@ -1,9 +1,13 @@
-Disk erasure pertains to the erasing of data on each of a machine's disks when the machine has been released (see [Release action](/t/concepts-and-terms/785#heading--release)) back into the pool of available machines. The user can choose from among three erasure types before confirming the Release action. A default erasure configuration can also be set.
+<table width="100%"><tr>
+<td><a href="heading--erasure-types">Erasure types</a></td>
+<td><a href="heading--default-configuration">Default configuration</a></td>
+</tr><tr>
+<td><a href="heading--order-of-preference">Order of preference</a></td>
+<td>&nbsp;</td>
+</tr></table>
+<hr>
 
-#### Quick questions you may have:
-* [What types of erasure are possible?](/t/disk-erasure/774#heading--erasure-types)
-* [How do I set a default configuration?](/t/disk-erasure/774#heading--default-configuration)
-* [What is the default order of preference for erasure if all types are selected?](/t/disk-erasure/774#heading--order-of-preference)
+Disk erasure pertains to the erasing of data on each of a machine's disks when the machine has been released (see [Release action](/t/concepts-and-terms/785#heading--release)) back into the pool of available machines. The user can choose from among three erasure types before confirming the Release action. A default erasure configuration can also be set.
 
 <h2 id="heading--erasure-types">Erasure types</h2>
 

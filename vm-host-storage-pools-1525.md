@@ -6,4 +6,4 @@ For the Beta version of LXD VM hosts, each VM can be assigned a single block dev
 
 MAAS displays information about each VM host's storage pools so you can understand your resource usage at a glance:
 
-![storage-pools|690x183](upload://7lRC9jbuwOVj3C2CbwNJOR8YqGQ.jpeg)
+![storage-pools|690x183](https://discourse.maas.io/uploads/default/optimized/1X/3387f256f9bd02f7fc2079f119377305256973c8_2_690x183.jpeg)

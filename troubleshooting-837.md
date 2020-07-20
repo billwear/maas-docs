@@ -173,9 +173,9 @@ cd /var/lib/maas/boot-resources/current/ubuntu/amd64/ga-16.04-lowlatency/xenial/
 To replace the original, substitute the *squashfs* file with the custom image generated earlier, making sure the new owner is *maas*:
 
 ``` bash
-sudo mv squashfs squashfs_original
-sudo cp /home/ubuntu/xenial-customized.squashfs squashfs
-sudo chown maas:maas squashfs
+mv squashfs squashfs_original
+cp /home/ubuntu/xenial-customized.squashfs .
+chown maas:maas squashfs
 ```
 
 You can now use this image to commission or deploy a node and access the root account with the backdoor password, such as by deploying the same specific image from the web UI to the node you wish to troubleshoot.
