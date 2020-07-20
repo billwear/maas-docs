@@ -16,13 +16,13 @@ Machines are the heart of MAAS. They are the backbone of your data centre applic
 
 For example, in the illustration below, you see a typical small hospital data centre, including servers ready and allocated for functions like Pharmacy, Orders, Charts, and so on:
 
-![machine-list-general|690x416](https://discourse.maas.io/uploads/default/optimized/1X/30df04b0bcec5fcf6538590ed795cb0514a64675_2_690x416.jpeg) 
+![machine-list-general|690x416](upload://6YkJs9Yez3WVOQqdHB3kks6tpgV.jpeg) 
 
 These example machines would typically be duplicated in several different geographies, with a quick way to switch to a redundant node, should anything go wrong (e.g., high availability).  We used the word node there because, In the network language of MAAS, machines are one of several different types of nodes.  A node is simply a network-connected object or, more specifically, an object that can independently communicate on a network. MAAS nodes include controllers, network devices, and of course, machines.   
 
 Looking back at the example above, you can see that there are several columns in the machine list:
 
-![machine-list-columns|690x105](https://discourse.maas.io/uploads/default/optimized/1X/e6339dd1439b3b54be7a75f7239d1981754a07f6_2_690x105.jpeg) 
+![machine-list-columns|690x105](upload://wQspaCGydN0uYIKNf7WTmgW6wFo.jpeg) 
 
 The columns list the following details for each machine:
 
@@ -89,19 +89,19 @@ When a machine is in the state listed in a column, it is possible to take the ro
 
 Incidentally, you can get to this list of machines from the choice "Machines" on the top menu of the MAAS web UI.  This action will display a table like the one above, listing all the machines that are currently visible to your MAAS installation.  During commissioning and deployment, MAAS updates the table to reflect the changing state of each machine. These values are augmented with green, amber and red icons to represent successful, in-progress and failed transitions, respectively. The MAAS web UI employs similar icons and colours throughout the interface to reflect a machine's status. 
 
-![machine-list-christmas-tree|663x500](https://discourse.maas.io/uploads/default/optimized/1X/19e038dbc6e669bfffc0ea5a9946432a75142bfb_2_663x500.jpeg) 
+![machine-list-christmas-tree|663x500](upload://3GUku4ab2VAKIF5KQTh8prXQH9N.jpeg) 
 
 Rolling the cursor over status icons often reveals more details. For example, a failed hardware test script will place a warning icon alongside the hardware type tested by the script. Rolling the cursor over this will reveal which test failed.  Likewise, you can find some immediate options by rolling over the column data items in the machines table.
 
-![rollover-icons|690x222](https://discourse.maas.io/uploads/default/optimized/1X/8f78a8877a029e7a44bcd4cf3d138499637fe790_2_690x222.jpeg) 
+![rollover-icons|690x222](upload://ktcMPfDGQQWy62NlOfTTNPzN41W.jpeg) 
 
 The 'Add hardware' drop-down menu is used to add either new machines or a new chassis. This menu changes context when one or more machines are selected from the table, using either the individual checkboxes in the first column or the column title checkbox to select all.
 
-![machine-add-hardware-menu|690x235](https://discourse.maas.io/uploads/default/optimized/1X/9a0747649e6aff999d3c04335eb752accedaf3de_2_690x235.jpeg) 
+![machine-add-hardware-menu|690x235](upload://lYB7LWwBuO6mfaJDdEWReyo0VvU.jpeg) 
 
 With one or more machines selected, the 'Add hardware' drop-down menu moves to the left, and is joined by the 'Take action' menu.  This menu provides access to the various [machine actions](/t/concepts-and-terms/785#node-actions) that can be applied to the selected machine(s):
 
-![machine-take-action-menu-dropped|690x364](https://discourse.maas.io/uploads/default/optimized/1X/e03d5ac8de9ea4f4827ed057bb2dd83e241aac3b_2_690x364.jpeg) 
+![machine-take-action-menu-dropped|690x364](upload://vZIp7432EBtYdQAHpoFfrTml3p9.jpeg) 
 
 [note]
 The 'Filter by' section limits the machines listed in the table to selected keywords and machine attributes.
@@ -111,10 +111,11 @@ The 'Filter by' section limits the machines listed in the table to selected keyw
 
 Click a machine's FQDN or MAC address to open a detailed view of a machine's status and configuration.
 
-![machine-details|690x439](https://discourse.maas.io/uploads/default/optimized/1X/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
+![machine-details|690x439](upload://sJJqqQGogobDzrrZSeFJqBTHvG4.jpeg)
 
 The default view is 'Machine summary', presented as a series of cards detailing the CPU, memory, storage and tag characteristics of the machine, as well as an overview of its current status. When relevant, 'Edit' links take you directly to the settings pane for the configuration referenced within the card.  The machine menu bar within the web UI also includes links to logs, events, and configuration options:
- ![machine-event-output|690x370](https://discourse.maas.io/uploads/default/optimized/1X/2efac92fca2c90f53ac86bd98485d8e98a1f91d4_2_690x370.jpeg) 
+
+ ![machine-event-output|690x370](upload://6HBgJA1B1o2JkEA1kpYLwq3AEZu.jpeg) 
 
 The menu includes links to a number of additional forms and controls, as described in the following sections.
 
@@ -122,11 +123,11 @@ The menu includes links to a number of additional forms and controls, as describ
 
 As shown above, the Machine summary presents an overview of CPU, memory, storage, tags, and general settings:
 
-![machine-details|690x439](https://discourse.maas.io/uploads/default/optimized/1X/c9684bf883d01d3fe610ec27e95618075c44b324_2_690x439.jpeg)
+![machine-details|690x439](upload://sJJqqQGogobDzrrZSeFJqBTHvG4.jpeg)
 
 The first card presents some basics of the machine resources and configuration:
 
-![machine-summary-overview-card|690x119](https://discourse.maas.io/uploads/default/optimized/1X/3e50fb21f4985db0a85519e2e933e24658770b9e_2_690x119.jpeg) 
+![machine-summary-overview-card|690x119](upload://8Th6shzRRSFIXZIwSEHdaIo9CKG.jpeg) 
 
 Here are some details on what this card presents, with details on in-card links described in following sections:
  - **OVERVIEW** the machine status (in this case "Deployed"), and lists OS version information.  
@@ -142,15 +143,15 @@ Here are some details on what this card presents, with details on in-card links 
 
 Note that clicking any of the links in this card will either present a pop-up form or take you to another item in the machine menu -- so using the browser "back" button will take you completely away from this machine's page.  For example, you can choose the "Test CPU" option, which brings up this overlay:
 
-![cpu-test|690x215](https://discourse.maas.io/uploads/default/optimized/1X/4fe98db93dd34f3b167b56286b06ec6d244d5848_2_690x215.jpeg) 
+![cpu-test|690x215](upload://boW6BeYZ3DxWLbkmZkcPgWhk2aA.jpeg) 
 
 From this screen, you can choose test scripts and run the tests (in the background) as the interface returns to the Machine summary.  A linked note in the CPU block lets you know that the tests are in progress:
 
-![cpu-testing-in-progress|690x231](https://discourse.maas.io/uploads/default/original/1X/3d6996b32a5193dab76b112c864a216c845aa985.jpeg) 
+![cpu-testing-in-progress|690x231](upload://8LhlBbhJglocOenXchv78md4OSV.jpeg) 
 
 And you can watch the results under the "Tests" option in the Machine menu:
 
-![cpu-tests-log|690x185](https://discourse.maas.io/uploads/default/optimized/1X/89d287347928d6adb039ca582d4a94c3b54588e1_2_690x185.jpeg) 
+![cpu-tests-log|690x185](upload://jFet0GBKop1ENrjH8nq4M5tI3VT.jpeg) 
 
 The rest of the cards on the Machine summary are either self-explanatory, or they're covered in the sections below.  The main point is this: You can see that nearly everything about machines takes place within the main menu's "Machines" option.  Incidentally, you can learn more about testing by visiting the [Hardware testing](https://maas.io/docs/hardware-testing) page.
 
@@ -158,11 +159,11 @@ The rest of the cards on the Machine summary are either self-explanatory, or the
 
 The Network "tab" provides you with a way to view/edit the network and interface configuration for a machine: 
 
-![machine-network-tab|690x206](https://discourse.maas.io/uploads/default/optimized/1X/7a7b22ee7202b50df09c7bef598250db0eb1cc15_2_690x206.jpeg) 
+![machine-network-tab|690x206](upload://htw4laHvQFoBA1HWVMWnBeIKsGF.jpeg) 
 
 In the case of this deployed machine, there are not many editing options.  If the machine is in a 'Ready' state, though, altering the network configuration is possible:
 
-![machine-network-tab-undeployed-machine|690x176](https://discourse.maas.io/uploads/default/optimized/1X/01d53759105647d71786154e99ff210f8c71d2e7_2_690x176.jpeg) 
+![machine-network-tab-undeployed-machine|690x176](upload://gdi2U367Cyb9pauJh8iBTFaeBp.jpeg) 
 
 Options on this tab are described in the introduction to [Networking](https://maas.io/docs/networking) article in this documentation set.
 
@@ -170,7 +171,7 @@ Options on this tab are described in the introduction to [Networking](https://ma
 
 The Storage tab on the machine list brings up a form that allows you to view/edit the file system, partitioning and storage parameters for the selected machine:
 
-![machine-storage-tab|690x431](https://discourse.maas.io/uploads/default/optimized/1X/9dc30aedf5ed173bb7b474910fa9939f7f066c95_2_690x431.jpeg) 
+![machine-storage-tab|690x431](upload://mvCQ4AERPEDdSdCeSdsi5xkG7e5.jpeg) 
 
 This tab describes the filesystem(s) in use, as well as the available and used partitions for this machine.  See the article [Storage](https://maas.io/docs/storage) for a detailed discussion on how to use this screen, as well as many other considerations for machine storage configurations.
 
@@ -178,11 +179,11 @@ This tab describes the filesystem(s) in use, as well as the available and used p
 
 The "Commissioning" tab brings up a summary log of commissioning events:
 
-![comm-logging-summary|690x279](https://discourse.maas.io/uploads/default/optimized/1X/b3d6248013fb5186d3ea61931816fe688b94a6a2_2_690x279.jpeg) 
+![comm-logging-summary|690x279](upload://pEUgsQUyJmWt4Oed2DQPSIS69nY.jpeg) 
 
 Clicking on any of the "View log" links will take you to specific, detailed logs for that particular event or milestone:
 
-![comm-logs-details|690x379](https://discourse.maas.io/uploads/default/optimized/1X/13fce404b9bb304e08a7c5de5a395c514e98b9b0_2_690x379.jpeg) 
+![comm-logs-details|690x379](upload://2QOT2xEesnRryUxofsk9Ezbuf6w.jpeg) 
 
 These logs present an extremely detailed, timestamped record of completion and status items from the commissioning process.  See the article on [Logging](https://maas.io/docs/logging) for more details on how to read and interpret these logs.
 
@@ -190,11 +191,11 @@ These logs present an extremely detailed, timestamped record of completion and s
 
 This tab presents a summary of tests run against this particular machine:  
 
-![machine-menu-test-summary|690x189](https://discourse.maas.io/uploads/default/optimized/1X/b6a6ff3c8fae4a638c18a18bf65c4aa51f29e984_2_690x189.jpeg) 
+![machine-menu-test-summary|690x189](upload://q3OGIPCgFN1AtiF7Otd7y3dqAdK.jpeg) 
 
 You can view the summary report, or click on a "View log" link to get details on any particular tests:
 
-![machine-test-tab-details|690x431](https://discourse.maas.io/uploads/default/optimized/1X/8113eba28a3f08279ff2b5f7593e30db05d00824_2_690x431.jpeg) 
+![machine-test-tab-details|690x431](upload://ipSgVC9g9RAxUI9sWP6ntz0YYny.jpeg) 
 
 The format of these screens is very similar to the Configuration logs shown above.  For more information, please see the article on [Hardware testing](https://maas.io/docs/hardware-testing).
 
@@ -202,7 +203,7 @@ The format of these screens is very similar to the Configuration logs shown abov
 
 The "Logs" tab shows raw log output, switchable between YAML and XML formats:
 
-![machine-logs-tab|690x439](https://discourse.maas.io/uploads/default/optimized/1X/02b4bc35c8985fe0b954d8deb0afba18866cfe66_2_690x439.jpeg) 
+![machine-logs-tab|690x439](upload://nWb3qGDAzbhZySWa7gJW69LaJ0.jpeg) 
 
 Help interpreting these logs can be found under the [Logging](https://maas.io/docs/logging) section of this documentation.
 
@@ -210,7 +211,7 @@ Help interpreting these logs can be found under the [Logging](https://maas.io/do
 
 The "Event" tab displays a list ot timestamped status updates for events and actions performed on the machine:
 
-![machine-list-event-tab-log|690x305](https://discourse.maas.io/uploads/default/optimized/1X/114ada7188f8ebf12883a54c0976ad8abda1d211_2_690x305.jpeg) 
+![machine-list-event-tab-log|690x305](upload://2sYulpOvUcyOG3rELdQ6CpnioTv.jpeg) 
 
 There is a button that allows you to see the next 10 events, and a link to show the entire history.  Detailed discussion of this event log can be found under the [Logging](https://maas.io/docs/logging) section of this documentation.
 
@@ -218,16 +219,17 @@ There is a button that allows you to see the next 10 events, and a link to show 
 
 The final tab from the Machine menu allows you to update machine and power configuration options: 
 
-![machine-config-tab-failed-testing|690x412](https://discourse.maas.io/uploads/default/optimized/1X/13bb1352103c759365fc6b923672f021982a10c3_2_690x412.jpeg") 
+![machine-config-tab-failed-testing|690x412](upload://2OxSvYAYcxzHhAspLMvnqLoSNJF.jpeg) 
 
 There are two sections to this tab.  The "Machine configuration" section offers some general parameters, mostly related to how this machine is grouped and categorised.  More information on these options are found in the relevant sections of the documentation (e.g., tags, resource pools, and so forth). 
 
 The "Power configuration" supplies the parameters necessary for MAAS to access the machine to PXE-boot it. Note that this machine failed testing.  Editing the "Power configuration" section gives us a clue as to what might be wrong:
- ![power-config-failed-login|690x192](https://discourse.maas.io/uploads/default/optimized/1X/8f4c4ae8ec07f42551bad654375f513debc53ef1_2_690x192.jpeg) 
+
+ ![power-config-failed-login|690x192](upload://krFJxeljSjQHY2jN9DyuTsIJ65b.jpeg) 
 
 After entering the correct password and recycling things, the problem goes away:
 
-![machine-config-no-error|690x388](https://discourse.maas.io/uploads/default/optimized/1X/635e27e87bcac0c3cb3ce3085bd2fa55f60ff137_2_690x388.jpeg) 
+![machine-config-no-error|690x388](upload://eb2ZQVLu9euercNVPslY0UE7hYz.jpeg) 
 
 More information on Power configuration will be found in the [Power management](https://maas.io/docs/bmc-power-types) section of this documentation.
 

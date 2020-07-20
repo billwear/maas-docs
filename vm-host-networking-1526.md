@@ -23,15 +23,15 @@ You can use the MAAS UI to configure a bridge to connect a VM host to MAAS:
 2. Switch to the "Network" tab.
 3. Select the network where you want to create the bridge and click "Create bridge:"
 
-![select_interface_for_bridge|690x391](https://discourse.maas.io/uploads/default/optimized/1X/29624d737106c5bad777aee9d2c8cad9c3de7151_2_690x391.jpeg) 
+![select_interface_for_bridge|690x391](upload://5U6bGEnINqsGrNOL1jKFG6ZEdGx.jpeg) 
 
 4. Configure the bridge on a subnet MAAS controls.  You may use any IP mode for the bridge:
 
-![save_bridge|690x393](https://discourse.maas.io/uploads/default/optimized/1X/dd8567ff1cd76606c5ce1751e606fcfab2bc7ce2_2_690x393.jpeg) 
+![save_bridge|690x393](upload://vBFleCmb4LaH3QmxwKT4LNFTGUO.jpeg) 
 
 When you're done, it should look something like this:
 
-![configured_bridge|690x391](https://discourse.maas.io/uploads/default/optimized/1X/e392d638f0acecb9d54c81bbca4ee17cbcd05445_2_690x391.jpeg) 
+![configured_bridge|690x391](upload://wtcYTzqGkaABjy742bcUIRZPfmt.jpeg) 
 
 5. Deploy Ubuntu
 

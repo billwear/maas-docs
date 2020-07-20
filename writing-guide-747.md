@@ -178,11 +178,11 @@ An image should not be overly cropped - allow for context. When ready, place the
 In terms of linking, they are managed very similarly to hyperlinks. However, they are placed on their own line; are preceded by an exclamation point; and both the label and destination have a specific naming convention:
 
 ````
-![web UI showing node view](https://discourse.maas.io/uploads/default/original/1X/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
+![web UI showing node view](/uploads/default/original/1X/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
 ````
 This image would appear in this way:
 
-![web UI showing node view](https://discourse.maas.io/uploads/default/original/1X/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
+![web UI showing node view](/uploads/default/original/1X/1f2e6cf2879e391e7ae1ad537cc9ce1baa119f86.png)
 
 <h2 id="heading--tiered-sections">Tiered sections</h2>
 

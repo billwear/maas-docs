@@ -2,13 +2,13 @@ MAAS is **Metal As A Service**, a service that lets you treat physical servers l
 
 #### Quick questions you might have:
 
-* [What is MAAS -- and what does it really do for me?](/t/about-maas/840)
+* [What is MAAS -- and what does it really do for me?](/t/what-is-maas/840)
 * [Can you show me an example datacentre using MAAS?](/t/give-me-an-example-of-maas/1314)
-* [How does MAAS work, in detail?](/t/about-maas/840#heading--how-maas-works)
+* [How does MAAS work, in detail?](/t/what-is-maas/840#heading--how-maas-works)
 * [What concepts might I need to understand before starting?](/t/concepts-and-terms/785)
 * [Can I just install it and try it for myself?](/t/explore-maas/787)
 
-![splash-screen|690x406](https://discourse.maas.io/uploads/default/optimized/1X/18456dbd3fbfec14eddd044816fd0719692282da_2_690x406.jpeg) 
+![splash-screen|690x406](upload://3sIcZqo5xpV2cBz5DFLHjyI30dc.jpeg) 
 
 *Part of the machine list from [Metaphorical General Hospital](/t/give-me-an-example-of-maas/1314), our example datacentre.*
 
@@ -39,7 +39,7 @@ MAAS is **Metal As A Service**, a service that lets you treat physical servers l
 
 ### [Introduction](/t/maas-documentation/25)
 
-- [About MAAS](/t/about-maas/840)
+- [About MAAS](/t/what-is-maas/840)
 - ["Give me an example"](/t/give-me-an-example-of-maas/1314)
 - [Explore MAAS](/t/explore-maas/787)
 - [What's new in 2.8](https://discourse.maas.io/t/whats-new-in-maas-2-8/1655)
@@ -47,7 +47,7 @@ MAAS is **Metal As A Service**, a service that lets you treat physical servers l
 
 ### Installing MAAS
 
-- [Requirements](/t/about-maas/789)
+- [Requirements](/t/what-is-maas/789)
 - [Installation](https://maas.io/docs/install-from-a-snap)
 - [Configuration journey](https://maas.io/docs/configuration-journey)
 - [Setup checklist](/t/installation-and-configuration-checklist/750)

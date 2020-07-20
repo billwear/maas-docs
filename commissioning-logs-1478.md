@@ -2,7 +2,7 @@ Commissioning logs, which are presented on the "Commissioning" tab for any machi
 
 When you click on the "Commissioning" tab under a given machine, you will see a screen similar to this one:
 
-![commissioning-log|690x445](https://discourse.maas.io/uploads/default/optimized/1X/f2e52a4bf55b37e5ff63e7d1fab1aac32aebc48c_2_690x445.jpeg) 
+![commissioning-log|690x445](upload://yEKwZhvX2OfXXfIDaA1B0k7renG.jpeg) 
 
 Each of the items in the "NAME" column is the name of a [commissioning script](/t/commission-machines/822#heading--commissioning-scripts).  Each entry gives a timestamp and a result (e.g. passed, failed, ...). At the end of each line is a link to view the log. It's worth taking a look at each of the script logs and their typical output.
 

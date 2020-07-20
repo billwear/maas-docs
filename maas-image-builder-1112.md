@@ -1,4 +1,10 @@
-MAAS Image Builder is an alternative to [packer](https://www.packer.io/) for creating MAAS images.  You can:
+MAAS Image Builder is an alternative to [packer](https://www.packer.io/) for creating MAAS images.  
+
+[note]
+In order to use MAAS Image Builder, you must purchase [Ubuntu Advantage for Infrastructure](https://support.canonical.com/ua/s/article/How-to-access-the-MAAS-Image-Builder-tool).
+[/note]
+
+With the MAAS Image Builder, you can:
 
 * <a href="#imib">install MAAS Image Builder</a> via a private Canonical PPA (which you can request)
 * <a href="#bci">create custom CentOS images</a>
@@ -10,7 +16,9 @@ You can customize most images as much or as little as you wish, then use them to
 
 <a name="imib"><h3>Install MAAS Image Builder</h3></a>
 
-To get MAAS Image Builder, you must be subscribed to a private PPA provided by Canonical Support.  Once subscribed, you need to obtain your credentials at:
+To get MAAS Image Builder, you must be subscribed to a private PPA provided by Canonical Support to those customers who have purchased [Ubuntu Advantage for Infrastructure](https://support.canonical.com/ua/s/article/How-to-access-the-MAAS-Image-Builder-tool).  Note that the steps below will fail if you have not purchased Ubuntu Advantage and been subscribed to the private PPA by your Canonical support rep.
+
+Once subscribed, you need to obtain your credentials at:
 
 https://launchpad.net/~/+archivesubscriptions
 

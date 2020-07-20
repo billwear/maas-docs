@@ -13,7 +13,7 @@ Installing a rack controller consists of installing the rack controller software
 
 Once registered, this extra rack controller will appear immediately alongside the primary controller in the web UI and begin to sync with it:
 
-![4_install-rackd|690x251](https://discourse.maas.io/uploads/default/optimized/1X/0a5f1d374a3e53235a83eb157163be49016e63b5_2_690x251.png) 
+![4_install-rackd|690x251](upload://1tKysphOEUVzsDrcvNegIO4Aanr.png) 
 
 You can also [list and confirm](/t/cli-advanced-tasks/793#heading--list-rack-controllers) all registered rack controllers via the CLI.  Note that you will need multiple rack controllers to achieve specific [high availability](/t/high-availability/804) configurations.
 

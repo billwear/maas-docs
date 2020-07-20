@@ -20,7 +20,7 @@ The rack controller installs and configures `bind` as a forwarder. All machines 
 Zone management and maintenance still happen within the region controller.
 [/note]
 
-<h2 id="heading--rackregion">How region and rack controllers communicate</h2>
+<h2 id="heading--rack-region-interaction">How region and rack controllers communicate</h2>
 
 The MAAS region and rack controllers interact in a number of different ways, depending upon the operation you've requested.  Consider the process of commissioning a machine, that is, taking over the machine and gathering information on its available resources, including CPU, RAM, storage, and MIB information (obtainable via LLDP requests).  Here's a rough idea of what that sequence looks like -- a sequence that is representative of the communication between rack and region controllers:
 

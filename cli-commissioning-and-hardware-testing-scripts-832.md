@@ -13,7 +13,7 @@ To upload a hardware testing script to MAAS, enter the following:
 
 ``` bash
 maas $PROFILE node-scripts create name=$SCRIPT_NAME name> \
- script=$PATH_TO_SCRIPT type=testing
+ script="`cat $PATH_TO_SCRIPT`" type=testing
 ```
 
 Changing the type to commissioning adds the test script to the commissioning process.
@@ -30,7 +30,7 @@ A [script's metadata](/t/commissioning-and-hardware-testing-scripts/833#hardware
 
 ``` bash
 maas $PROFILE node-script update \
- $SCRIPT_NAME script=$PATH_TO_SCRIPT comment=$COMMENT
+ $SCRIPT_NAME script="`cat $PATH_TO_SCRIPT`" comment=$COMMENT
 ```
 
 The JSON formatted output to the above command will include 'history' dictionary entries, detailing script modification times and associated comments:

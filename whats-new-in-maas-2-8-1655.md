@@ -17,7 +17,7 @@ MAAS 2.8 adds the beta capability to use LXD-based VM hosts and virtual machines
 
 Within MAAS 2.8, we have made a number of performance improvements to everything related to the machine listing.  Some of the most visible changes involve the way that long lists are presented within categories (see the example below), but there are a number of other changes that make the list easier and more efficient to use.
 
-![new-machine-list|690x357](https://discourse.maas.io/uploads/default/original/1X/b4ec4124225f052fb8646f754c22d287fffcc850.jpeg) 
+![new-machine-list|690x357](upload://pOw7hKJZ2T7l7xXx8UycgBDFbvq.jpeg) 
 
 Among those other changes are persisting UI state for grouping, new grouping options, bookmarkable URLs with filter and search parameters, and many other performance improvements. If you're interested in more details, see this [blog post](https://ubuntu.com/blog/building-a-cross-framework-ui-with-single-spa-in-maas-2-8).
 
