@@ -125,7 +125,7 @@ The following categories are now available to be explored:
 -   [Image management](/t/cli-image-management/797)
 -   [Tag management](/t/cli-tag-management/801)
 -   [DHCP snippet management](/t/cli-dhcp-snippet-management/796)
--   [Advanced tasks](/t/advanced-cli-tasks/793)
--   [Composable hardware](/t/cli-composable-machines-management/795)
+-   [Advanced tasks](/t/cli-advanced-tasks/793)
+-   [Composable hardware](/t/cli-composable-hardware/795)
 
 <!-- LINKS -->

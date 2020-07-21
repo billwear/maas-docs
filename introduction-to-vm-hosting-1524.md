@@ -16,7 +16,7 @@ This section will lead you through the creation, usage, and management of VM hos
 * [What is a VM host?](/t/introduction-to-vm-hosting/1524#heading--what-is-a-vm-host)
 * [Which VM host should I use: LXD or KVM?](/t/introduction-to-vm-hosting/1524#heading--choosing-vm-host-type)
 * [How do I set up SSH for use by libvirt?](/t/vm-host-networking/1526#heading--set-up-ssh)
-* [How do I add a VM host?](/t/adding-a-vm-host-2-8-draft/1549)
+* [How do I add a VM host?](/t/adding-a-vm-host/1549)
 
 <h2 id="heading--what-is-a-vm-host">What is a VM host?</h2>
 

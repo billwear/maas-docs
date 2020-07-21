@@ -4,7 +4,7 @@ The following document provides a list of interface management tasks which can b
 
 * [How do I use the MAAS CLI?](/t/maas-cli/802)
 * [What might I need to know about networking?](/t/networking/768)
-* [How do I commission machines?](/t/commission-nodes/822)
+* [How do I commission machines?](/t/commission-machines/822)
 * [How do I discover interface identifiers?](/t/cli-interface-management/798#heading--interface-identifiers)
 * [How do I create a bond interface?](/t/cli-interface-management/798#heading--create-a-bond-interface)
 * [How do I create a bridge interface?](/t/cli-interface-management/798#heading--create-a-bridge-interface)
@@ -54,7 +54,7 @@ mac_address=52:52:00:00:00:00 parents=15 bond_mode=802.3ad \
 bond_updelay=200 bond_downdelay=200 mtu=9000
 ```
 
-See [Bond interfaces](/t/commission-nodes/822#heading--bond-interfaces) for details on supported bond modes and their actions.
+See [Bond interfaces](/t/commission-machines/822#heading--bond-interfaces) for details on supported bond modes and their actions.
 
 <h2 id="heading--create-a-bridge-interface">Create a Bridge interface</h2>
 

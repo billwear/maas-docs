@@ -89,7 +89,7 @@ A number of bug fixes (see the [list in Launchpad](https://bugs.launchpad.net/ma
 
 <h2 id="heading--270">2.6</h2>
 
-See [2.6 release notes](https://discourse.maas.io/t/maas-2-6-historical-release-notes/1305) for details on the 2.6 release tree.
+See [2.6 release notes](https://discourse.maas.io/t/whats-new-in-maas-2-6/1305) for details on the 2.6 release tree.
 
 <h2 id="heading--240">2.4.0</h2>
 
@@ -185,8 +185,6 @@ KVM pods were initially created to help developers quickly iterate and test new 
 **Allow machines to be allocated with different storage pools**
 
 -   From the API, you can now request a machine with multiple storage devices from different storage pools. This feature uses storage tags to automatically map a storage pool in *libvirt* with a storage tag in MAAS.
-
-See the [Pods documentation](/t/pods/823) for further details.
 
 <h4 id="heading--ntp-services-now-provided-by-chrony">NTP services now provided by Chrony</h4>
 

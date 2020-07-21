@@ -10,7 +10,7 @@ Due to the nature of this example, we re-use elements like fabrics, VLANs, subne
 
 This main view can also be filtered either by fabrics or by spaces through the use of the 'Group by' dropdown.
 
-Fabrics, VLANs, and spaces do not require much configuration beyond names and descriptions. You can change the MTU for a VLAN, as well as [enable DHCP](/t/dhcp/759#heading--enabling-dhcp) (see 'Take action' button).  None of these options requires detailed instruction. A subnet, on the other hand, provides a number of configuration options relevant to the day-to-day operation of MAAS.
+Fabrics, VLANs, and spaces do not require much configuration beyond names and descriptions. You can change the MTU for a VLAN, as well as [enable DHCP](/t/managing-dhcp/759#heading--enabling-dhcp) (see 'Take action' button).  None of these options requires detailed instruction. A subnet, on the other hand, provides a number of configuration options relevant to the day-to-day operation of MAAS.
 
 <h3 id="heading--subnet-window">Subnet window</h3>
 

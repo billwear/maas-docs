@@ -1,5 +1,5 @@
 [note type="warning" status="Procedure for versions 2.7 and below only"]
-This page covers the obsoleted use of deb/APT packages to install MAAS.  With the advent of MAAS 2.7.0, installation via [snap](/t/install-from-a-snap/773) is the recommended method to acquire MAAS.  Please note that using this method with versions 2.8 and above is not recommended.
+This page covers the obsoleted use of deb/APT packages to install MAAS.  With the advent of MAAS 2.7.0, installation via [snap](/t/maas-installation-from-a-snap/773) is the recommended method to acquire MAAS.  Please note that using this method with versions 2.8 and above is not recommended.
 [/note]  
 
 You may want to consider an installation within [LXD containers](/t/install-with-lxd/757). These containers allow MAAS nodes to also run as local containers and are ideal for testing and experimenting with MAAS.
@@ -8,8 +8,8 @@ You may want to consider an installation within [LXD containers](/t/install-with
 
 There are three packages to consider when installing MAAS:
 
-- `maas-region-controller` - region API server, database, DNS, [HTTP proxy](/t/proxy/763), and [web UI](/t/web-ui/782)
-- `maas-rack-controller` - [rack controller](/t/rack-controller/771) and [DHCP](/t/dhcp/759)
+- `maas-region-controller` - region API server, database, DNS, [HTTP proxy](/t/proxy/763), and web UI
+- `maas-rack-controller` - [rack controller](/t/rack-controllers/771) and [DHCP](/t/managing-dhcp/759)
 - `maas` - a metapackage that installs both the above packages to provide a complete MAAS environment
 
 Each of the above packages has its dependencies. That is, each will bring in other MAAS packages not listed above. You can see the full list of MAAS packages with the command:
@@ -77,7 +77,7 @@ Choosing "Y" proceeds with a standard <code>apt</code> package install.
 sudo apt install maas-region-controller
 ```
 
-and the rack controller (see [Rack controller](/t/rack-controller/771) for details) on another:
+and the rack controller (see [Rack controller](/t/rack-controllers/771) for details) on another:
 
 ``` bash
 sudo apt install maas-rack-controller

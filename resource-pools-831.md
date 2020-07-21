@@ -2,7 +2,6 @@ Resource pools allow administrators to logically group resources (machines and V
 
 #### Quick questions you may have:
 
-* [How do I use the Web UI?](/t/web-ui/782)
 * [How can I add a resource pool?](/t/resource-pools/831#heading--add-a-resource-pool)
 * [How can I delete a resource pool?](/t/resource-pools/831#heading--deleting-a-resource-pool)
 * [How do I add a node to a resource pool?](/t/resource-pools/831#heading--add-a-node-to-a-resource-pool)
@@ -10,7 +9,7 @@ Resource pools allow administrators to logically group resources (machines and V
 * [How do I add a VM host to a resource pool?](/t/resource-pools/831#heading--add-a-vm-host-to-a-resource-pool)
 * [How do I remove a VM host from a resource pool?](/t/resource-pools/831#heading--removing-a-vm-host-from-a-resource-pool)
 
-Administrators can manage resource pools on the Machines page in the [Web UI](/t/web-ui/782), under the Resource pools tab.   Also note that all MAAS installations have a resource pool named "default." MAAS automatically adds new machines to the default resource pool.
+Administrators can manage resource pools on the Machines page in the web UI, under the Resource pools tab.   Also note that all MAAS installations have a resource pool named "default." MAAS automatically adds new machines to the default resource pool.
 
 <h2 id="heading--add-a-resource-pool">Add a resource pool</h2>
 

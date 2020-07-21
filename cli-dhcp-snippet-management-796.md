@@ -3,7 +3,7 @@ This document presents a list of DHCP snippet management tasks that you can perf
 #### Quick questions you may have:
 
 * [How do I get started with the MAAS CLI?](/t/maas-cli/802)
-* [What are DHCP snippets and how do they work?](/t/dhcp/759#heading--dhcp-snippets)
+* [What are DHCP snippets and how do they work?](/t/managing-dhcp/759#heading--dhcp-snippets)
 * [How do I create a DHCP snippet?](/t/cli-dhcp-snippet-management/796#heading--create-a-snippet)
 * [How do I list DHCP snippets?](/t/cli-dhcp-snippet-management/796#heading--list-snippets)
 * [How do I update a DHCP snippet?](/t/cli-dhcp-snippet-management/796#heading--update-a-snippet)

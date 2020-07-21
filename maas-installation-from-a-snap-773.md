@@ -5,7 +5,6 @@ MAAS can be installed in either of two configurations:  test or production.  The
 * [What are MAAS initialisation modes?](/t/maas-installation-from-a-snap/773#heading--maas-init-modes)
 * [How do I initialise MAAS for a test or proof-of-concept configuration?](/t/maas-installation-from-a-snap/773#heading--init-poc)
 * [How do I initialise MAAS for a production configuration?](/t/maas-installation-from-a-snap/773#heading--init-prod)
-* [How do I install MAAS from packages?](https://discourse.maas.io/t/non-snap-maas-installs/1308)
 * [How do I migrate an existing snap install?](/t/tips-tricks-and-traps/1506#heading--migrate-maas)
 * [What if I want to manually export the MAAS database to an existing PostgreSQL server?](/t/tips-tricks-and-traps/1506#heading--manual-export)
 * [How can I check the service status of my MAAS configuration?](/t/maas-installation-from-a-snap/773#heading--service-status)
@@ -52,10 +51,6 @@ The MAAS initialisation mode "all" is [deprecated in MAAS version 2.8.0 and will
 <h2 id="heading--init-poc">Initialising MAAS as a test configuration</h2>
 
 We want to provide a more compact version for those who may be testing MAAS.  To achieve this, we're providing a separate snap, called `maas-test-db`, which provides a PostgreSQL database for use in testing and evaluating MAAS.   The following instructions will help you take advantage of this test configuration.
-
-[note]
-If you are using packages, you might benefit from [this article](https://discourse.maas.io/t/setting-up-a-flexible-virtual-maas-test-environment/142), which is a little older, but may apply.
-[/note]
 
 Once MAAS is installed, you can use the `--help` flag with `maas init` to get relevant instructions:
  

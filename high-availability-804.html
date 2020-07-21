@@ -368,19 +368,19 @@
 <li><a href="high-availability-804.html#heading--postgresql-ha">How do I enable highly-available PostgreSQL?</a></li>
 <li><a href="high-availability-804.html#heading--secondary-api-servers">How do I enable highly-available API services?</a></li>
 <li><a href="high-availability-804.html#heading--load-balancing-with-haproxy-optional">How do I enable load balancing for API services?</a></li>
-<li><a href="rack-controller-771.html#heading--install-a-rack-controller">How do I install extra rack controllers?</a></li>
+<li><a href="rack-controllers-771.html#heading--install-a-rack-controller">How do I install extra rack controllers?</a></li>
 <li><a href="high-availability-804.html#heading--snap">How do I enable HA in a snap?</a></li>
 </ul>
 <h2 id="heading--rack-controller-ha">Make rack controllers highly available</h2>
 
-<p>You need to <a href="rack-controller-771.html#heading--install-a-rack-controller">install multiple rack controllers</a> to achieve real high availability.  Once that&rsquo;s done, you automatically gain highly-available BMC control, and you can also enable highly-available DHCP.</p>
+<p>You need to <a href="rack-controllers-771.html#heading--install-a-rack-controller">install multiple rack controllers</a> to achieve real high availability.  Once that&rsquo;s done, you automatically gain highly-available BMC control, and you can also enable highly-available DHCP.</p>
 <h3 id="heading--bmc-ha">Enable highly-available BMC</h3>
 
 <p>HA for BMC control (node power cycling) is provided out-of-the-box, once a second rack controller is present. MAAS will automatically identify which rack controller is responsible for a BMC and set up communication accordingly.</p>
 <h3 id="heading--dhcp-ha">Enable highly-available DHCP services?</h3>
 
 <p>DHCP HA affects the way MAAS manages node, including enlistment, commissioning and deployment. It enables primary and secondary DHCP instances to serve the same VLAN. This VLAN replicates all lease information is between rack controllers. MAAS-managed DHCP is a requirement for DHCP HA.</p>
-<p>If you are enabling DHCP for the first time after adding a second rack controller, please read <a href="dhcp-759.html#heading--enabling-dhcp">Enabling DHCP</a>.  On the other hand, if you have already enabled DHCP on your initial rack controller, you&rsquo;ll need to reconfigure DHCP.</p>
+<p>If you are enabling DHCP for the first time after adding a second rack controller, please read <a href="managing-dhcp-759.html#heading--enabling-dhcp">Enabling DHCP</a>.  On the other hand, if you have already enabled DHCP on your initial rack controller, you&rsquo;ll need to reconfigure DHCP.</p>
 <p>Access the appropriate VLAN (via the &lsquo;Subnets&rsquo; page) and choose action &lsquo;Reconfigure DHCP&rsquo;. There, you will see the second rack controller in the &lsquo;Secondary controller&rsquo; field. All you should have to do is press the &lsquo;Reconfigure DHCP&rsquo; button:</p>
 <p><img alt="reconfigure DHCP" src="https://assets.ubuntu.com/v1/c3d1e0c1-manage-ha__2.6-ha-dhcp.png"></p>
 <h3 id="heading--multiple-region-endpoints">Configure multiple region endpoints</h3>
@@ -412,7 +412,7 @@ maas_url:
 <p>Each region controller uses up to 40 connections to PostgreSQL in high load situations. Running two region controllers requires no modifications to the <code>max_connections</code> in <code>postgresql.conf</code>. More than two region controllers require that <code>max_connections</code> be adjusted to add 40 more connections per added region controller.</p>
 <h3 id="heading--secondary-api-servers">Enable highly-available API services</h3>
 
-<p>Please see <a href="region-controller-772.html">Region controllers</a> and <a href="#heading--multiple-region-endpoints">Multiple region endpoints</a> for more information about how to install and configure rack controllers for multiple region controllers.</p>
+<p>Please see <a href="region-controllers-772.html">Region controllers</a> and <a href="#heading--multiple-region-endpoints">Multiple region endpoints</a> for more information about how to install and configure rack controllers for multiple region controllers.</p>
 <h3 id="heading--load-balancing-with-haproxy-optional">Load balancing with HAProxy (optional)</h3>
 
 <p>You can add load balancing with <a href="http://www.haproxy.org/">HAProxy</a> load-balancing software to support multiple API servers. In this setup, HAProxy provides access to the MAAS web UI and API.</p>
@@ -455,8 +455,8 @@ backend maas
 <p>Setting up high-availability using snaps is relatively easy. To use snaps instead of a package distribution of MAAS:</p>
 <ol>
 <li>Set up PostgreSQL for high-availability as <a href="high-availability-804.html#heading--postgresql-ha">explained above</a>. PostgreSQL should run outside of the snap.</li>
-<li><a href="install-from-a-snap-773.html#heading--install-from-snap">Install</a> the MAAS snap on each machine you intend to use as a rack or region controller. You&rsquo;ll need the MAAS shared secret, located here, <code>/var/lib/maas/secret</code>, on the first region controller you set up.</li>
-<li><a href="install-from-a-snap-773.html#heading--initialisation">Initialise the snap</a> as a <code>rack</code> or <code>region</code> controller. Note that if you intend to use a machine as a region controller, you&rsquo;ll need to tell MAAS how to access your PostgreSQL database host with the following arguments:<ul>
+<li><a href="maas-installation-from-a-snap-773.html#heading--install-from-snap">Install</a> the MAAS snap on each machine you intend to use as a rack or region controller. You&rsquo;ll need the MAAS shared secret, located here, <code>/var/lib/maas/secret</code>, on the first region controller you set up.</li>
+<li><a href="maas-installation-from-a-snap-773.html#heading--initialisation">Initialise the snap</a> as a <code>rack</code> or <code>region</code> controller. Note that if you intend to use a machine as a region controller, you&rsquo;ll need to tell MAAS how to access your PostgreSQL database host with the following arguments:<ul>
 <li><code>--database-host DATABASE_HOST</code></li>
 <li><code>--database-name DATABASE_NAME</code></li>
 <li><code>--database-user DATABASE_USER</code></li>

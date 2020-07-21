@@ -2,9 +2,9 @@ The [web UI](/t/commissioning-and-hardware-testing-scripts/833) enables you to e
 
 #### Quick questions you may have:
 
-* [How do I upload and manage test scripts?](/t/cli-hardware-testing-scripts/832#heading--script-management)
-* [How do I use tags to help with test scripts?](t/cli-hardware-testing-scripts/832#heading--tags)
-* [How do I view test results?](/t/cli-hardware-testing-scripts/832#heading--results)
+* [How do I upload and manage test scripts?](/t/cli-commissioning-and-hardware-testing-scripts/832#heading--script-management)
+* [How do I use tags to help with test scripts?](/t/cli-commissioning-and-hardware-testing-scripts/832#heading--tags)
+* [How do I view test results?](/t/cli-commissioning-and-hardware-testing-scripts/832#heading--results)
 * [What metadata fields are available to me for test scripts?](/t/commissioning-and-hardware-testing-scripts/833#heading--metadata-fields)
 
 <h2 id="heading--script-management">Script management</h2>
@@ -167,7 +167,7 @@ maas $PROFILE node-script-result download $SYSTEM_ID $RUN_ID output=all \
 ```
 
 [note]
-**$RUN_ID** is labelled `id` in the verbose result output. See [Determine a node's system ID](manage-cli-common#determine-a-node's-system-id) for details on retrieving **$SYSTEM_ID**.
+**$RUN_ID** is labelled `id` in the verbose result output.
 [/note]
 
 <!-- LINKS -->

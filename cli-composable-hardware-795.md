@@ -3,7 +3,7 @@ This article provides a list of examples of VM host management tasks you can per
 #### Quick questions you may have: 
 
 * [How do I get started with the MAAS CLI?](/t/maas-cli/802)
-* [What should I know about VM hosts?](/t/introduction-to-vm-hosting/1524/)
+* [What should I know about VM hosts?](/t/introduction-to-vm-hosting/1524)
 * [How can I add a VM host?](/t/cli-composable-hardware/795#heading--add-a-vm-host)
 * [How can I find VM host IDs?](/t/cli-composable-hardware/795#heading--find-vm-host-ids)
 * [How can I list resources of all VM hosts?](/t/cli-composable-hardware/795#heading--list-resources-of-all-vm-hosts)

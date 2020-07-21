@@ -4,7 +4,6 @@ The Machines and Devices pages contain a powerful interactive search bar that le
 
 Quick questions you may have:
 
-* [How do I use the Web UI?](/t/web-ui/782)
 * [How can I do simple searches?](/t/interactive-search/819#heading--simple-searches)
 * [How can I do filtered searches?](/t/interactive-search/819#heading--filtered-searches)
 * [How can I create manual filters?](/t/interactive-search/819#heading--manual-filters)

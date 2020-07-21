@@ -361,7 +361,7 @@
 <h1>Commission machines</h1><p>MAAS is built to manage machines, including the operating systems on those machines. Enlistment and commissioning are features that make it easier to start managing a machine – as long as that machine has been configured to netboot. Enlistment enables users to simply connect a machine, configure the firmware properly, and power it on so that MAAS can find it and add it.</p>
 <p>Enlistment happens when MAAS starts; it reaches out on connected subnets to locate any nodes – that is, devices and machines – that reside on those subnets. MAAS finds a machine that’s configured to netboot (e.g., via PXE), boots that machine into Ubuntu, and then sends cloud-init user data which runs standard (i.e., built-in) commissioning scripts. The machine actually adds itself over the MAAS API, and then requests permission to send commissioning data.</p>
 <p>Since MAAS doesn’t know whether you might intend to actually include these discovered machines in your cloud configuration, it won’t automatically take them over, but it will read them to get an idea how they’re set up. MAAS then presents these machines to you with a MAAS state of “New.” This allows you to examine them and decide whether or not you want MAAS to manage them.</p>
-<p>When you configure a machine to netboot &ndash; and turn it on while connected to the network &ndash; MAAS will enlist it, giving it a status of &ldquo;New.&rdquo;  You can also <a href="add-nodes-821.html">add a machine manually</a>).  In either case, the next step is <em>commissioning</em>, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run <a href="commissioning-and-hardware-testing-scripts-833.html">custom commissioning scripts</a> to meet your specific needs.</p>
+<p>When you configure a machine to netboot &ndash; and turn it on while connected to the network &ndash; MAAS will enlist it, giving it a status of &ldquo;New.&rdquo;  You can also <a href="add-machines-821.html">add a machine manually</a>).  In either case, the next step is <em>commissioning</em>, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run <a href="commissioning-and-hardware-testing-scripts-833.html">custom commissioning scripts</a> to meet your specific needs.</p>
 <h4>Questions you may have:</h4>
 <ul>
 <li><a href="commission-machines-822.html#heading--commissioning-machines">How are machines commissioned?</a></li>
@@ -411,7 +411,7 @@
 <p>While commissioning, the machine status will change to reflect this state (Commissioning).  MAAS discovers the machine&rsquo;s network topology.  MAAS then prompts a machine network interface to connect to the fabric, VLAN, and subnet combination for configuration. Usually, MAAS assigns a static IP address out of the reserved IP range for the subnet (&lsquo;Auto assign&rsquo; mode). The next section details several assignment modes.</p>
 <p>See <a href="common-cli-tasks-794.html#heading--commission-a-node">MAAS CLI</a> for how to commission a machine with the CLI.</p>
 <p>Once commissioned, a machine&rsquo;s status will change to Ready, and an extra tab for the machine called &lsquo;Commissioning&rsquo; will become available. This tab contains the results of the scripts executed during the commissioning process.</p>
-<p>Once commissioned, you may consider <a href="tags-834.html">creating or applying a tag</a> to this machine.  The next step is <a href="deploy-nodes-825.html">deployment</a>.</p>
+<p>Once commissioned, you may consider <a href="maas-tags-834.html">creating or applying a tag</a> to this machine.  The next step is <a href="deploy-machines-825.html">deployment</a>.</p>
 <h3 id="heading--numa-sriov-commissioning">Commission NUMA and SR-IOV nodes</h3>
 
 <p>If you are using the NUMA architecture, MAAS version 2.7 guarantees that machines are assigned to a single NUMA node that contains all the machine&rsquo;s resoures.  Note that you must recommission NUMA/SR-IOV machines that were previously commissioned under version 2.6 or earlier.</p>
@@ -470,7 +470,7 @@
 <p>In both enlistment and commissioning, MAAS uses either the MAC address or the UUID to identify machines.  Currently, because some machine types encountered by MAAS do <strong>not</strong> use unique MAC addresses, we are trending toward using the UUID.</p>
 <h2 id="heading--post-commission-configuration">Post-commission configuration</h2>
 
-<p>Once commissioned, you can configure the machine&rsquo;s network interface(s). Specifically, when a machine&rsquo;s status is either &lsquo;Ready&rsquo; or &lsquo;Broken&rsquo;, interfaces can be added/removed, attached to a fabric and linked to a subnet, and provided an IP assignment mode. Tags can also be assigned to specific network interfaces (see <a href="tags-834.html#heading--tags-for-network-interfaces">Tags for network interfaces</a>).</p>
+<p>Once commissioned, you can configure the machine&rsquo;s network interface(s). Specifically, when a machine&rsquo;s status is either &lsquo;Ready&rsquo; or &lsquo;Broken&rsquo;, interfaces can be added/removed, attached to a fabric and linked to a subnet, and provided an IP assignment mode. Tags can also be assigned to specific network interfaces (see <a href="maas-tags-834.html#heading--tags-for-network-interfaces">Tags for network interfaces</a>).</p>
 <p>From a machine&rsquo;s &lsquo;Interfaces&rsquo; page, click the menu icon for the interface to be edited and select &lsquo;Edit Physical&rsquo; from the resulting menu:</p>
 <p><img alt="edit interface" src="https://discourse.maas.io/uploads/default/optimized/1X/438475b8906736b45fc809cd105a56be5052397d_2_690x124.png"></p>
 <p>The following window will appear:</p>
@@ -491,7 +491,7 @@
 </li>
 </ul>
 <p>Press the &lsquo;Save&rsquo; button to apply the changes.</p>
-<p>See <a href="concepts-and-terms-785.html#heading--ip-ranges">Concepts and terms</a> for the definitions of reserved range types and <a href="advanced-cli-tasks-793.html#heading--change-the-ip-assignment-mode-of-a-network-interface">MAAS CLI - advanced tasks</a> to learn how to change the IP-assignment mode of a network interface using the CLI.</p>
+<p>See <a href="concepts-and-terms-785.html#heading--ip-ranges">Concepts and terms</a> for the definitions of reserved range types and <a href="cli-advanced-tasks-793.html#heading--change-the-ip-assignment-mode-of-a-network-interface">MAAS CLI - advanced tasks</a> to learn how to change the IP-assignment mode of a network interface using the CLI.</p>
 <h3 id="heading--bond-interfaces">Bond interfaces and how to create one</h3>
 
 <p>A bond interface is used to aggregate two or more physical interfaces into a single logical interface. Combining multiple network connections in parallel can increase network throughput beyond what a single NIC will allow.  It also provides some redundancy in case one of the NICs should fail.  More information about the theory behind bonded NICs is found in the <a href="https://1.ieee802.org/tsn/802-1ax-rev/">relevant IEEE standard</a>.</p>

@@ -24,7 +24,7 @@ Please follow these guidelines for style and language:
 -   Resist being overly formal.
 -   Verify hyperlinks and examples.
 -   Target audience: intermediate system administrator, not a developer.
--   Use British English (en-GB). See [language details](/t/language-details-contributing-to-juju-docs/745), including a comparison with American English (en-US).
+-   Use British English (en-GB). See [language details](/t/language-details-contributing-to-maas-docs/745), including a comparison with American English (en-US).
 -   Never break a hyperlink with a carriage return. 
 
 Note that the document markup is not particularly complicated.  For the most part, if you rely on the formatting bar just above the editor window -- or use standard HTML -- you shouldn't have much difficulty.

@@ -361,10 +361,10 @@
 <h1>Installation and configuration checklist</h1><p>This is a guide that you can use to achieve a working MAAS environment. Once you perform a step come back here (using the menu in the left pane) to continue on to the next one.</p>
 <h2 id="heading--software-installation">Software installation</h2>
 
-<p>As explained in the <a href="maas-documentation-25.html#heading--key-components-and-colocation-of-all-services">Introduction</a>, the installation of MAAS consists of the installation of a rack controller and a region controller which, in turn, provide a multitude of services. Go ahead and <a href="install-from-a-snap-773.html">install MAAS</a>!</p>
+<p>As explained in the <a href="maas-documentation-25.html#heading--key-components-and-colocation-of-all-services">Introduction</a>, the installation of MAAS consists of the installation of a rack controller and a region controller which, in turn, provide a multitude of services. Go ahead and <a href="maas-installation-from-a-snap-773.html">install MAAS</a>!</p>
 <h2 id="heading--access-the-web-ui">Access the web UI</h2>
 
-<p>You <em>will</em> be using the web UI so now is the time to log in and take a look around! Proceed to the <a href="web-ui-782.html">web UI</a> now. This will involve the creation of an administrator user. Notice how the web UI (API server) is accessed via port 5240 and not port 80.</p>
+<p>You <em>will</em> be using the web UI so now is the time to log in and take a look around! Proceed to the web UI now. This will involve the creation of an administrator user. Notice how the web UI (API server) is accessed via port 5240 and not port 80.</p>
 <p>[note]
 Although the web UI may be accessed via port 80, this is not guaranteed to work in future versions of MAAS.
 [/note]</p>
@@ -389,7 +389,7 @@ Once installed, by default, MAAS will begin downloading images for the latest Ub
 <p>Even if you&rsquo;ve imported images with the web UI, it would be wise (and cool?) to give the <a href="maas-cli-802.html">CLI</a> a spin in case you ever need to use it later. Although we strive to make the web UI feature-equivalent to the CLI, some things can still only be done with the CLI.</p>
 <h2 id="heading--enable-dhcp">Enable DHCP</h2>
 
-<p>You won&rsquo;t get far without DHCP since it is required in order to make PXE work, which, in turn, is necessary to introduce your systems to MAAS. But you knew that. Anyway, DHCP is installed - it just needs enabling. <a href="dhcp-759.html">Read about DHCP</a> and continue until you have enabled it.</p>
+<p>You won&rsquo;t get far without DHCP since it is required in order to make PXE work, which, in turn, is necessary to introduce your systems to MAAS. But you knew that. Anyway, DHCP is installed - it just needs enabling. <a href="managing-dhcp-759.html">Read about DHCP</a> and continue until you have enabled it.</p>
 <h2 id="heading--users-and-ssh-keys">Users and SSH keys</h2>
 
 <p>You already have an administrative user but MAAS can also have regular users (who log in to the interface or use the CLI). What users you create depends on how you intend to use MAAS.</p>
@@ -397,17 +397,17 @@ Once installed, by default, MAAS will begin downloading images for the latest Ub
 <p>Study <a href="user-accounts-790.html">User accounts</a> to learn about how to create more users and how to add their public SSH keys to MAAS. Once that&rsquo;s done, every deployed machine will automatically have that key installed.</p>
 <h2 id="heading--add-a-node">Add a machine</h2>
 
-<p>It&rsquo;s time to actually do something! MAAS manages machines, but at this time it doesn&rsquo;t have any. Go forth and <a href="add-nodes-821.html">add a machine</a> now. Obviously, you need a spare physical system (but KVM works too). In the web UI, confirm that the import of images has finished!</p>
+<p>It&rsquo;s time to actually do something! MAAS manages machines, but at this time it doesn&rsquo;t have any. Go forth and <a href="add-machines-821.html">add a machine</a> now. Obviously, you need a spare physical system (but KVM works too). In the web UI, confirm that the import of images has finished!</p>
 <p>Go to the &lsquo;Machines&rsquo; page in the web UI. A successfully added machine will soon appear there with a status of <em>New</em>. It will also have a funny name. Whatever, you&rsquo;re still a rock star!</p>
 <h2 id="heading--edit-power-type">Edit power type</h2>
 
-<p>A machine needs to power cycle while being managed by MAAS. The next step is therefore to tell MAAS how to do this. That is, you need to <a href="bmc-power-types-830.html">edit the power type</a> of the machine&rsquo;s BMC.</p>
+<p>A machine needs to power cycle while being managed by MAAS. The next step is therefore to tell MAAS how to do this. That is, you need to <a href="power-management-830.html">edit the power type</a> of the machine&rsquo;s BMC.</p>
 <h2 id="heading--commission-a-node">Commission a machine</h2>
 
-<p>Commissioning a machine involves MAAS testing it to ensure that it is able to communicate properly with the region API server. <a href="commission-nodes-822.html">Commission</a> your machine now.</p>
+<p>Commissioning a machine involves MAAS testing it to ensure that it is able to communicate properly with the region API server. <a href="commission-machines-822.html">Commission</a> your machine now.</p>
 <h2 id="heading--deploy-a-node">Deploy a machine</h2>
 
-<p>Lots of folks would have <a href="https://jujucharms.com/docs/stable/about-juju">Juju</a> take over at this point. Juju acts as a sort of command &amp; control centre for adding services/applications on top of MAAS machines (among other &ldquo;clouds&rdquo;). If you&rsquo;re just not there and/or you want to quickly test things out you can use the web UI to <a href="deploy-nodes-825.html">deploy a machine</a> directly.</p>
+<p>Lots of folks would have <a href="https://jujucharms.com/docs/stable/about-juju">Juju</a> take over at this point. Juju acts as a sort of command &amp; control centre for adding services/applications on top of MAAS machines (among other &ldquo;clouds&rdquo;). If you&rsquo;re just not there and/or you want to quickly test things out you can use the web UI to <a href="deploy-machines-825.html">deploy a machine</a> directly.</p>
 <h2 id="heading--ssh-to-the-node">SSH to the machine</h2>
 
 <p>If you <a href="user-accounts-790.html#heading--ssh-keys">imported your SSH key</a> then you should now be able to ssh to the deployed machine by connecting to the &lsquo;ubuntu&rsquo; account. The machine&rsquo;s page in the web UI will inform you of its IP address. Mission accomplished!</p>

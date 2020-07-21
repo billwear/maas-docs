@@ -420,7 +420,7 @@ To commission a node, it must have a status of &lsquo;New&rsquo;.
 <pre><code class="bash">maas $PROFILE machines accept-all
 </code></pre>
 
-<p>See <a href="commission-nodes-822.html">Commission nodes</a>.</p>
+<p>See <a href="commission-machines-822.html">Commission nodes</a>.</p>
 <h2 id="heading--acquire-a-node">Acquire a node</h2>
 
 <p>To acquire/allocate a random node:</p>
@@ -445,9 +445,9 @@ To acquire a node, it must have a status of &lsquo;Ready&rsquo;.
 </code></pre>
 
 <p>[note]
-To deploy with the CLI, the node must have a status of &lsquo;Allocated&rsquo;. See &lsquo;Acquire a node&rsquo; above (or use the <a href="deploy-nodes-825.html#acquire-nodes">web UI</a>).
+To deploy with the CLI, the node must have a status of &lsquo;Allocated&rsquo;. See &lsquo;Acquire a node&rsquo; above (or use the <a href="deploy-machines-825.html#acquire-nodes">web UI</a>).
 [/note]</p>
-<p>See <a href="deploy-nodes-825.html">Deploy nodes</a>.</p>
+<p>See <a href="deploy-machines-825.html">Deploy nodes</a>.</p>
 <h2 id="heading--configure-deployment-timeout">Configure deployment timeout</h2>
 
 <p>By default, when you deploy a node, MAAS will consider the deployment a failure if it doesn&rsquo;t complete within 30 minutes. However, this timeout is configurable:</p>
@@ -513,7 +513,7 @@ To deploy with the CLI, the node must have a status of &lsquo;Allocated&rsquo;. 
 <p>[note]
 You must enable DHCP for PXE booting on the &lsquo;untagged&rsquo; VLAN.
 [/note]</p>
-<p>See <a href="dhcp-759.html">DHCP</a> for more on this subject.</p>
+<p>See <a href="managing-dhcp-759.html">DHCP</a> for more on this subject.</p>
 <h2 id="heading--set-a-dns-forwarder">Set a DNS forwarder</h2>
 
 <p>To set a DNS forwarder:</p>

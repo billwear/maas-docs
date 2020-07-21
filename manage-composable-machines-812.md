@@ -1,5 +1,3 @@
-See [Web UI](/t/web-ui/782) for how to get started with the web UI.
-
 <h2 id="heading--add-a-kvm-host">Add a KVM host</h2>
 
 After installing MAAS, the 'Pods' page is typically empty:
@@ -155,7 +153,7 @@ You can choose which storage pool to use from a drop-down list:
 
 ![storagepoolavail](https://assets.ubuntu.com/v1/a026986c-manage-kvm-pods__2.5_libvirt_storage.png)
 
-You can also use the [MAAS CLI](/t/cli-composable-machines-management/795#heading--compose-pod-virtual-machines) to compose pod VMs with specific storage pool constraints.
+You can also use the [MAAS CLI](/t/cli-composable-hardware/795#heading--compose-pod-virtual-machines) to compose pod VMs with specific storage pool constraints.
 
 Click the 'Compose machine' button when you're finished. MAAS will present the pod detail view. In a few moments, your new machine will be auto-commissioned. The 'Machines' page will reflect this as well.
 

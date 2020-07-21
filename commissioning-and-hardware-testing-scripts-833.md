@@ -11,11 +11,11 @@ MAAS runs scripts during enlistment, commissioning and testing to collect data a
 * [What would some example scripts look like?](/t/commissioning-and-hardware-testing-scripts/833#heading--script-examples)
 * [How do I upload scripts to MAAS?](/t/commissioning-and-hardware-testing-scripts/833#heading--upload-procedure)
 * [How can I debug script issues and failures?](/t/commissioning-and-hardware-testing-scripts/833#heading--debugging)
-* [How can I use these scripts via the command line?](/t/cli-testing-scripts/832)
+* [How can I use these scripts via the command line?](/t/cli-commissioning-and-hardware-testing-scripts/832)
 
 ---
 
-Scripts can be selected to run from web UI [during commissioning](/t/commission-nodes/822), by [testing hardware](/t/hardware-testing/826) or from the [command line](/t/cli-testing-scripts/832). Note that MAAS only runs built-in commissioning scripts during enlistment. Custom scripts can be run when you explicitly choose to commission a machine.  A typical administrator workflow (with machine states), using customised commissioning scripts, can be represented as:
+Scripts can be selected to run from web UI [during commissioning](/t/commission-machines/822), by [testing hardware](/t/hardware-testing/826) or from the [command line](/t/cli-commissioning-and-hardware-testing-scripts/832). Note that MAAS only runs built-in commissioning scripts during enlistment. Custom scripts can be run when you explicitly choose to commission a machine.  A typical administrator workflow (with machine states), using customised commissioning scripts, can be represented as:
 
 Add machine -&gt; Enlistment (runs built-in commissioning scripts MAAS) -&gt; New -&gt; Commission (runs built-in and custom commissioning scripts) -&gt; Ready -&gt; Deploy
 
@@ -283,9 +283,9 @@ This Bash script contains comment-delineated metadata, which configures the scri
 
 <h3 id="heading--automatic-script-selection-by-hardware-type">Automatic script selection by hardware type</h3>
 
-When selecting multiple machines in the [web UI](/t/node-overview/829), scripts which declare the `for_hardware` field will only run on machines with matching hardware. To automatically run a script when 'Update firmware' or 'Configure HBA' is selected, you must tag the script with 'update_firmware' or 'configure_hba'.
+When selecting multiple machines in the [web UI](/t/introduction-to-machines/829), scripts which declare the `for_hardware` field will only run on machines with matching hardware. To automatically run a script when 'Update firmware' or 'Configure HBA' is selected, you must tag the script with 'update_firmware' or 'configure_hba'.
 
-Similarly, scripts selected by tag on the [command line](/t/cli-testing-scripts/832) which specify the `for_hardware` field will only run on matching hardware.
+Similarly, scripts selected by tag on the [command line](/t/cli-commissioning-and-hardware-testing-scripts/832) which specify the `for_hardware` field will only run on matching hardware.
 
 <h2 id="heading--upload-procedure">Upload procedure</h2>
 
@@ -358,7 +358,7 @@ Here, all the scripts are run again after downloading from MAAS, but no output d
 
 <h2 id="heading--command-line-access">Command line access</h2>
 
-For information about managing scripts, applying tags to scripts and seeing script results using the CLI, please see [CLI Testing Scripts](/t/cli-testing-scripts/832).
+For information about managing scripts, applying tags to scripts and seeing script results using the CLI, please see [CLI Testing Scripts](/t/cli-commissioning-and-hardware-testing-scripts/832).
 
 <!-- LINKS -->
 <!-- IMAGES -->

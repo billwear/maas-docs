@@ -173,9 +173,7 @@ You can reserve IP addresses by adding one or more reserved ranges to a subnet c
     -   **Unmanaged (subnet)**: MAAS will only assign IP addresses inside this range.
 -   **Reserved dynamic range** An IP range that MAAS will use for enlisting, commissioning and, if enabled, MAAS-managed DHCP on the node's VLAN during commissioning, deploying. An initial range is created as part of the DHCP enablement process if done with the web UI. MAAS never uses IP addresses from this range for an unmanaged subnet.
 
-See [IP ranges](/t/ip-ranges/760) for how these ranges get created and [Commission nodes](/t/commission-nodes/822#heading--post-commission-configuration) for how they get used and [Subnet management](/t/subnet-management/766) for information on managed vs. unmanaged subnets.
-
-For details on how IP range terminology has changed since MAAS 1.9, see [Upgrade from 1.9 to 2.x](/t/upgrade-from-1-9-to-2-x/778#heading--ip-range-changes).
+See [IP ranges](/t/ip-ranges/760) for how these ranges get created and [Commission nodes](/t/commission-machines/822#heading--post-commission-configuration) for how they get used and [Subnet management](/t/subnet-management/766) for information on managed vs. unmanaged subnets.
 
 <h2 id="heading--vlans">VLANs</h2>
 

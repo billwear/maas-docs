@@ -9,10 +9,10 @@ Machines are the heart of MAAS. They are the backbone of your data centre applic
 * [Where can I find network info for a machine?](/t/introduction-to-machines/829#heading--machine-interfaces-h3)
 * [Where can I find storage info for a machine?](/t/introduction-to-machines/829#heading--machine-storage-h3)
 * [Where can I find the commissioning log for a machine?](/t/introduction-to-machines/829#heading--commissioning-log-h3)
-* [Where can I find machine hardware & test logs?](/t/introduction-to-machines/829w#heading--hardware-tests-h3)
-* [Where can I find raw log output for a machine?](/t/introduction-to-machines/829w#heading--raw-log-output-h3)
-* [Where can I find a machine's event log?](/t/introdunction-to-machines/829#heading--event-logs-h3)
-* [Where can I find machine configuration info?](/t/introdunction-to-machines/829#heading--machine-config-h3)
+* [Where can I find machine hardware & test logs?](/t/introduction-to-machines/829#heading--hardware-tests-h3)
+* [Where can I find raw log output for a machine?](/t/introduction-to-machines/829#heading--raw-log-output-h3)
+* [Where can I find a machine's event log?](/t/introduction-to-machines/829#heading--event-logs-h3)
+* [Where can I find machine configuration info?](/t/introduction-to-machines/829#heading--machine-config-h3)
 
 For example, in the illustration below, you see a typical small hospital data centre, including servers ready and allocated for functions like Pharmacy, Orders, Charts, and so on:
 

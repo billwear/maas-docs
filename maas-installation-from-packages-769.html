@@ -359,15 +359,15 @@
     </div>
 <div class="container" style="float:right; width:75%;">
 <h1>MAAS installation from packages</h1><p>[note type=&rdquo;warning&rdquo; status=&rdquo;Procedure for versions 2.7 and below only&rdquo;]
-This page covers the obsoleted use of deb/APT packages to install MAAS.  With the advent of MAAS 2.7.0, installation via <a href="install-from-a-snap-773.html">snap</a> is the recommended method to acquire MAAS.  Please note that using this method with versions 2.8 and above is not recommended.
+This page covers the obsoleted use of deb/APT packages to install MAAS.  With the advent of MAAS 2.7.0, installation via <a href="maas-installation-from-a-snap-773.html">snap</a> is the recommended method to acquire MAAS.  Please note that using this method with versions 2.8 and above is not recommended.
 [/note]  </p>
 <p>You may want to consider an installation within <a href="install-with-lxd-757.html">LXD containers</a>. These containers allow MAAS nodes to also run as local containers and are ideal for testing and experimenting with MAAS.</p>
 <h2 id="heading--packages">Packages</h2>
 
 <p>There are three packages to consider when installing MAAS:</p>
 <ul>
-<li><code>maas-region-controller</code> - region API server, database, DNS, <a href="proxy-763.html">HTTP proxy</a>, and <a href="web-ui-782.html">web UI</a></li>
-<li><code>maas-rack-controller</code> - <a href="rack-controller-771.html">rack controller</a> and <a href="dhcp-759.html">DHCP</a></li>
+<li><code>maas-region-controller</code> - region API server, database, DNS, <a href="proxy-763.html">HTTP proxy</a>, and web UI</li>
+<li><code>maas-rack-controller</code> - <a href="rack-controllers-771.html">rack controller</a> and <a href="managing-dhcp-759.html">DHCP</a></li>
 <li><code>maas</code> - a metapackage that installs both the above packages to provide a complete MAAS environment</li>
 </ul>
 <p>Each of the above packages has its dependencies. That is, each will bring in other MAAS packages not listed above. You can see the full list of MAAS packages with the command:</p>
@@ -414,7 +414,7 @@ This page covers the obsoleted use of deb/APT packages to install MAAS.  With th
 <pre><code class="bash">sudo apt install maas-region-controller
 </code></pre>
 
-<p>and the rack controller (see <a href="rack-controller-771.html">Rack controller</a> for details) on another:</p>
+<p>and the rack controller (see <a href="rack-controllers-771.html">Rack controller</a> for details) on another:</p>
 <pre><code class="bash">sudo apt install maas-rack-controller
 sudo maas-rack register
 </code></pre>

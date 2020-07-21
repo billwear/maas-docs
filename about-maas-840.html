@@ -396,7 +396,7 @@ PXE stands for "Preboot Execution Environment," usually pronounced "pixie."  The
 <li>hardware testing</li>
 <li>composable hardware support</li>
 </ul>
-<p>These tools can be controlled from a responsive <a href="web-ui-782.html">web UI</a> or a <a href="maas-cli-802.html">CLI</a> driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.</p>
+<p>These tools can be controlled from a responsive web UI or a <a href="maas-cli-802.html">CLI</a> driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.</p>
 <p><img alt="mixed-states|690x438" src="https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg">  </p>
 <p>MAAS works with any system configuration tools. Both the <a href="https://www.chef.io/chef">Chef</a> and <a href="https://jaas.ai/">Juju</a> teams recommend MAAS as a physical provisioning system.</p>
 <p>[note]
@@ -405,8 +405,8 @@ Please note that Windows and RHEL images require <a href="https://www.ubuntu.com
 <h3 id="heading--colocation-of-key-components">Colocation of key components</h3>
 
 <p>MAAS relies on two key components: the <em>region controller</em> and the <em>rack controller</em>. The region controller handles operator requests; the rack controller provides high-bandwidth services to multiple racks. In essence, rack controllers manage racks, while the region controller manages the data centre.  See <a href="concepts-and-terms-785.html#heading--controllers">Concepts and terms</a> for a deeper understanding of these components.</p>
-<p>We generally recommended installing both controllers on the same system.  The default MAAS install delivers this colocated configuration automatically. This all-in-one solution also provides <a href="dhcp-759.html">DHCP</a>. </p>
-<p>In special cases, such as <a href="high-availability-804.html">high availability or load balancing</a>, you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether <a href="dhcp-759.html">MAAS-managed DHCP</a> will cause problems.</p>
+<p>We generally recommended installing both controllers on the same system.  The default MAAS install delivers this colocated configuration automatically. This all-in-one solution also provides <a href="managing-dhcp-759.html">DHCP</a>. </p>
+<p>In special cases, such as <a href="high-availability-804.html">high availability or load balancing</a>, you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether <a href="managing-dhcp-759.html">MAAS-managed DHCP</a> will cause problems.</p>
 <p><img alt="intro-arch-overview" src="https://discourse.maas.io/uploads/default/original/1X/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png"></p>
 <h2 id="heading--how-maas-works">How MAAS works</h2>
 

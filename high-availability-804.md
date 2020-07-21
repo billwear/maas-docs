@@ -9,12 +9,12 @@ This page describes how to provide high availability (HA) for MAAS at both regio
 * [How do I enable highly-available PostgreSQL?](/t/high-availability/804#heading--postgresql-ha)
 * [How do I enable highly-available API services?](/t/high-availability/804#heading--secondary-api-servers)
 * [How do I enable load balancing for API services?](/t/high-availability/804#heading--load-balancing-with-haproxy-optional)
-* [How do I install extra rack controllers?](/t/rack-controller/771#heading--install-a-rack-controller)
+* [How do I install extra rack controllers?](/t/rack-controllers/771#heading--install-a-rack-controller)
 * [How do I enable HA in a snap?](/t/high-availability/804#heading--snap)
 
 <h2 id="heading--rack-controller-ha">Make rack controllers highly available</h2>
 
-You need to [install multiple rack controllers](/t/rack-controller/771#heading--install-a-rack-controller) to achieve real high availability.  Once that's done, you automatically gain highly-available BMC control, and you can also enable highly-available DHCP.
+You need to [install multiple rack controllers](/t/rack-controllers/771#heading--install-a-rack-controller) to achieve real high availability.  Once that's done, you automatically gain highly-available BMC control, and you can also enable highly-available DHCP.
 
 <h3 id="heading--bmc-ha">Enable highly-available BMC</h3>
 
@@ -24,7 +24,7 @@ HA for BMC control (node power cycling) is provided out-of-the-box, once a secon
 
 DHCP HA affects the way MAAS manages node, including enlistment, commissioning and deployment. It enables primary and secondary DHCP instances to serve the same VLAN. This VLAN replicates all lease information is between rack controllers. MAAS-managed DHCP is a requirement for DHCP HA.
 
-If you are enabling DHCP for the first time after adding a second rack controller, please read [Enabling DHCP](/t/dhcp/759#heading--enabling-dhcp).  On the other hand, if you have already enabled DHCP on your initial rack controller, you'll need to reconfigure DHCP.
+If you are enabling DHCP for the first time after adding a second rack controller, please read [Enabling DHCP](/t/managing-dhcp/759#heading--enabling-dhcp).  On the other hand, if you have already enabled DHCP on your initial rack controller, you'll need to reconfigure DHCP.
 
 Access the appropriate VLAN (via the 'Subnets' page) and choose action 'Reconfigure DHCP'. There, you will see the second rack controller in the 'Secondary controller' field. All you should have to do is press the 'Reconfigure DHCP' button:
 
@@ -65,7 +65,7 @@ Each region controller uses up to 40 connections to PostgreSQL in high load situ
 
 <h3 id="heading--secondary-api-servers">Enable highly-available API services</h3>
 
-Please see [Region controllers](/t/region-controller/772) and [Multiple region endpoints](#heading--multiple-region-endpoints) for more information about how to install and configure rack controllers for multiple region controllers.
+Please see [Region controllers](/t/region-controllers/772) and [Multiple region endpoints](#heading--multiple-region-endpoints) for more information about how to install and configure rack controllers for multiple region controllers.
 
 <h3 id="heading--load-balancing-with-haproxy-optional">Load balancing with HAProxy (optional)</h3>
 
@@ -119,8 +119,8 @@ The configuration of region controller HA is now complete.
 Setting up high-availability using snaps is relatively easy. To use snaps instead of a package distribution of MAAS:
 
 1.  Set up PostgreSQL for high-availability as [explained above](/t/high-availability/804#heading--postgresql-ha). PostgreSQL should run outside of the snap.
-2.  [Install](/t/install-from-a-snap/773#heading--install-from-snap) the MAAS snap on each machine you intend to use as a rack or region controller. You'll need the MAAS shared secret, located here, `/var/lib/maas/secret`, on the first region controller you set up.
-3.  [Initialise the snap](/t/install-from-a-snap/773#heading--initialisation) as a `rack` or `region` controller. Note that if you intend to use a machine as a region controller, you'll need to tell MAAS how to access your PostgreSQL database host with the following arguments:
+2.  [Install](/t/maas-installation-from-a-snap/773#heading--install-from-snap) the MAAS snap on each machine you intend to use as a rack or region controller. You'll need the MAAS shared secret, located here, `/var/lib/maas/secret`, on the first region controller you set up.
+3.  [Initialise the snap](/t/maas-installation-from-a-snap/773#heading--initialisation) as a `rack` or `region` controller. Note that if you intend to use a machine as a region controller, you'll need to tell MAAS how to access your PostgreSQL database host with the following arguments:
     -   `--database-host DATABASE_HOST`
     -   `--database-name DATABASE_NAME`
     -   `--database-user DATABASE_USER`

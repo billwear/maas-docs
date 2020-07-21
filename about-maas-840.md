@@ -41,7 +41,7 @@ MAAS integrates all the tools you need into a smooth system-management experienc
 - hardware testing
 - composable hardware support
 
-These tools can be controlled from a responsive [web UI](/t/web-ui/782) or a [CLI](/t/maas-cli/802) driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.
+These tools can be controlled from a responsive web UI or a [CLI](/t/maas-cli/802) driven by a REST API.  You can easily (re)configure and scale your data centre with MAAS.
 
 ![mixed-states|690x438](https://discourse.maas.io/uploads/default/original/1X/00968a71b82ce01c45ae3b345ed6b1270d0927bf.jpeg)  
 
@@ -55,9 +55,9 @@ Please note that Windows and RHEL images require [Ubuntu Advantage](https://www.
 
 MAAS relies on two key components: the *region controller* and the *rack controller*. The region controller handles operator requests; the rack controller provides high-bandwidth services to multiple racks. In essence, rack controllers manage racks, while the region controller manages the data centre.  See [Concepts and terms](/t/concepts-and-terms/785#heading--controllers) for a deeper understanding of these components.
 
-We generally recommended installing both controllers on the same system.  The default MAAS install delivers this colocated configuration automatically. This all-in-one solution also provides [DHCP](/t/dhcp/759). 
+We generally recommended installing both controllers on the same system.  The default MAAS install delivers this colocated configuration automatically. This all-in-one solution also provides [DHCP](/t/managing-dhcp/759). 
 
-In special cases, such as [high availability or load balancing](/t/high-availability/804), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/dhcp/759) will cause problems.
+In special cases, such as [high availability or load balancing](/t/high-availability/804), you will want to install multiple region and rack controllers.  You should also review your existing network design to determine whether [MAAS-managed DHCP](/t/managing-dhcp/759) will cause problems.
 
 ![intro-arch-overview](https://discourse.maas.io/uploads/default/original/1X/5fc8edb2243aa4d4ac6ba7981a7b917fec27c480.png)
 

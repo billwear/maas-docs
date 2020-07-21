@@ -14,7 +14,7 @@ This article gives specific instructions about creating and managing IP ranges.
 
 <h2 id="heading--create-a-range">Create a range</h2>
 
-Choose 'Reserve range' or 'Reserve dynamic range'. If you choose the latter, MAAS will automatically provide DHCP for enlistment and commissioning provided that the associated VLAN has DHCP enabled. Read the [DHCP page](/t/dhcp/759).
+Choose 'Reserve range' or 'Reserve dynamic range'. If you choose the latter, MAAS will automatically provide DHCP for enlistment and commissioning provided that the associated VLAN has DHCP enabled. Read the [DHCP page](/t/managing-dhcp/759).
 
 When you choose either of those two options, a window will appear allowing you to enter start and end addresses for the range as well as a comment.
 

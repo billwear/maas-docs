@@ -2,11 +2,11 @@ This is a guide that you can use to achieve a working MAAS environment. Once you
 
 <h2 id="heading--software-installation">Software installation</h2>
 
-As explained in the [Introduction](/t/maas-documentation/25#heading--key-components-and-colocation-of-all-services), the installation of MAAS consists of the installation of a rack controller and a region controller which, in turn, provide a multitude of services. Go ahead and [install MAAS](/t/install-from-a-snap/773)!
+As explained in the [Introduction](/t/maas-documentation/25#heading--key-components-and-colocation-of-all-services), the installation of MAAS consists of the installation of a rack controller and a region controller which, in turn, provide a multitude of services. Go ahead and [install MAAS](/t/maas-installation-from-a-snap/773)!
 
 <h2 id="heading--access-the-web-ui">Access the web UI</h2>
 
-You *will* be using the web UI so now is the time to log in and take a look around! Proceed to the [web UI](/t/web-ui/782) now. This will involve the creation of an administrator user. Notice how the web UI (API server) is accessed via port 5240 and not port 80.
+You *will* be using the web UI so now is the time to log in and take a look around! Proceed to the web UI now. This will involve the creation of an administrator user. Notice how the web UI (API server) is accessed via port 5240 and not port 80.
 
 [note]
 Although the web UI may be accessed via port 80, this is not guaranteed to work in future versions of MAAS.
@@ -42,7 +42,7 @@ Even if you've imported images with the web UI, it would be wise (and cool?) to 
 
 <h2 id="heading--enable-dhcp">Enable DHCP</h2>
 
-You won't get far without DHCP since it is required in order to make PXE work, which, in turn, is necessary to introduce your systems to MAAS. But you knew that. Anyway, DHCP is installed - it just needs enabling. [Read about DHCP](/t/dhcp/759) and continue until you have enabled it.
+You won't get far without DHCP since it is required in order to make PXE work, which, in turn, is necessary to introduce your systems to MAAS. But you knew that. Anyway, DHCP is installed - it just needs enabling. [Read about DHCP](/t/managing-dhcp/759) and continue until you have enabled it.
 
 <h2 id="heading--users-and-ssh-keys">Users and SSH keys</h2>
 
@@ -54,21 +54,21 @@ Study [User accounts](/t/user-accounts/790) to learn about how to create more us
 
 <h2 id="heading--add-a-node">Add a machine</h2>
 
-It's time to actually do something! MAAS manages machines, but at this time it doesn't have any. Go forth and [add a machine](/t/add-nodes/821) now. Obviously, you need a spare physical system (but KVM works too). In the web UI, confirm that the import of images has finished!
+It's time to actually do something! MAAS manages machines, but at this time it doesn't have any. Go forth and [add a machine](/t/add-machines/821) now. Obviously, you need a spare physical system (but KVM works too). In the web UI, confirm that the import of images has finished!
 
 Go to the 'Machines' page in the web UI. A successfully added machine will soon appear there with a status of *New*. It will also have a funny name. Whatever, you're still a rock star!
 
 <h2 id="heading--edit-power-type">Edit power type</h2>
 
-A machine needs to power cycle while being managed by MAAS. The next step is therefore to tell MAAS how to do this. That is, you need to [edit the power type](/t/bmc-power-types/830) of the machine's BMC.
+A machine needs to power cycle while being managed by MAAS. The next step is therefore to tell MAAS how to do this. That is, you need to [edit the power type](/t/power-management/830) of the machine's BMC.
 
 <h2 id="heading--commission-a-node">Commission a machine</h2>
 
-Commissioning a machine involves MAAS testing it to ensure that it is able to communicate properly with the region API server. [Commission](/t/commission-nodes/822) your machine now.
+Commissioning a machine involves MAAS testing it to ensure that it is able to communicate properly with the region API server. [Commission](/t/commission-machines/822) your machine now.
 
 <h2 id="heading--deploy-a-node">Deploy a machine</h2>
 
-Lots of folks would have [Juju](https://jujucharms.com/docs/stable/about-juju) take over at this point. Juju acts as a sort of command & control centre for adding services/applications on top of MAAS machines (among other "clouds"). If you're just not there and/or you want to quickly test things out you can use the web UI to [deploy a machine](/t/deploy-nodes/825) directly.
+Lots of folks would have [Juju](https://jujucharms.com/docs/stable/about-juju) take over at this point. Juju acts as a sort of command & control centre for adding services/applications on top of MAAS machines (among other "clouds"). If you're just not there and/or you want to quickly test things out you can use the web UI to [deploy a machine](/t/deploy-machines/825) directly.
 
 <h2 id="heading--ssh-to-the-node">SSH to the machine</h2>
 

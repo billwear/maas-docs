@@ -25,7 +25,7 @@ You must install the proxy on the same host as the region controller (via the 'm
 
 <h2 id="heading--configure-proxy">Configure proxy</h2>
 
-See the [MAAS CLI](/t/common-ou cli-tasks/794#heading--configure-proxying) for how to configure proxying with the CLI. Note that you can only configure per-subnet proxies via the CLI.
+See the [MAAS CLI](/t/common-cli-tasks/794#heading--configure-proxying) for how to configure proxying with the CLI. Note that you can only configure per-subnet proxies via the CLI.
 
 In the web UI, visit the 'Settings' page and select the 'Network services' tab. The 'Proxy' section is at the top. You can apply your changes by pressing the 'Save' button.
 

@@ -154,11 +154,11 @@ See [Disk erasure](/t/disk-erasure/774) for an explanation of the options relate
 The new default will only apply to newly-commissioned machines.
 [/note]
 
-To change the default with the CLI see [MAAS CLI - advanced tasks](/t/advanced-cli-tasks/793#heading--set-the-default-storage-layout).
+To change the default with the CLI see [MAAS CLI - advanced tasks](/t/cli-advanced-tasks/793#heading--set-the-default-storage-layout).
 
 <h3 id="heading--node-layout">Machine layout</h3>
 
-An administrator can change the layout for a single machine as well as customise that layout providing this is done while the machine has a status of 'Ready'. This is only possible via the CLI at this time (see [MAAS CLI - advanced tasks](/t/advanced-cli-tasks/793#heading--set-a-storage-layout)).
+An administrator can change the layout for a single machine as well as customise that layout providing this is done while the machine has a status of 'Ready'. This is only possible via the CLI at this time (see [MAAS CLI - advanced tasks](/t/cli-advanced-tasks/793#heading--set-a-storage-layout)).
 
 [note]
 Only an administrator can modify storage at the block device level (providing the machine has a status of 'Ready').

@@ -75,7 +75,7 @@ To commission all nodes in the 'New' state:
 maas $PROFILE machines accept-all
 ```
 
-See [Commission nodes](/t/commission-nodes/822).
+See [Commission nodes](/t/commission-machines/822).
 
 <h2 id="heading--acquire-a-node">Acquire a node</h2>
 
@@ -110,10 +110,10 @@ maas $PROFILE machine deploy $SYSTEM_ID install_kvm=True
 ```
 
 [note]
-To deploy with the CLI, the node must have a status of 'Allocated'. See 'Acquire a node' above (or use the [web UI](/t/deploy-nodes/825#acquire-nodes)).
+To deploy with the CLI, the node must have a status of 'Allocated'. See 'Acquire a node' above (or use the [web UI](/t/deploy-machines/825#acquire-nodes)).
 [/note]
 
-See [Deploy nodes](/t/deploy-nodes/825).
+See [Deploy nodes](/t/deploy-machines/825).
 
 <h2 id="heading--configure-deployment-timeout">Configure deployment timeout</h2>
 
@@ -206,7 +206,7 @@ You will also need to set a default gateway (see [below](#heading--set-a-default
 You must enable DHCP for PXE booting on the 'untagged' VLAN.
 [/note]
 
-See [DHCP](/t/dhcp/759) for more on this subject.
+See [DHCP](/t/managing-dhcp/759) for more on this subject.
 
 <h2 id="heading--set-a-dns-forwarder">Set a DNS forwarder</h2>
 

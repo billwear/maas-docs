@@ -1,179 +1,114 @@
-2020-07-20 17:06:45 URL:http://stormrider.io/maas-rad/maas-documentation-25.html [28445/28445] -> "maas-documentation-25.html.1.tmp.tmp" [1]
+2020-07-21 13:17:35 URL:http://stormrider.io/maas-rad/maas-documentation-25.html [8966/8966] -> "maas-documentation-25.html.1.tmp.tmp" [1]
 http://stormrider.io/robots.txt:
-2020-07-20 17:06:47 ERROR 404: Not Found.
-2020-07-20 17:06:51 URL:http://stormrider.io/maas-rad/css/stylesheet.css [23306/23306] -> "stylesheet.css.tmp.tmp" [1]
-2020-07-20 17:06:56 URL:http://stormrider.io/maas-rad/about-maas-840.html [15489/15489] -> "about-maas-840.html.1.tmp.tmp" [1]
-2020-07-20 17:07:00 URL:http://stormrider.io/maas-rad/give-me-an-example-of-maas-1314.html [29914/29914] -> "give-me-an-example-of-maas-1314.html.1.tmp.tmp" [1]
-2020-07-20 17:07:04 URL:http://stormrider.io/maas-rad/explore-maas-787.html [11957/11957] -> "explore-maas-787.html.1.tmp.tmp" [1]
-2020-07-20 17:07:08 URL:http://stormrider.io/maas-rad/whats-new-in-maas-2-8-1655.html [14281/14281] -> "whats-new-in-maas-2-8-1655.html.1.tmp.tmp" [1]
-2020-07-20 17:07:13 URL:http://stormrider.io/maas-rad/maas-requirements-789.html [11536/11536] -> "maas-requirements-789.html.1.tmp.tmp" [1]
-2020-07-20 17:07:17 URL:http://stormrider.io/maas-rad/maas-installation-from-a-snap-773.html [20884/20884] -> "maas-installation-from-a-snap-773.html.1.tmp.tmp" [1]
-2020-07-20 17:07:21 URL:http://stormrider.io/maas-rad/configuration-journey-781.html [17063/17063] -> "configuration-journey-781.html.1.tmp.tmp" [1]
-2020-07-20 17:07:25 URL:http://stormrider.io/maas-rad/installation-and-configuration-checklist-750.html [13120/13120] -> "installation-and-configuration-checklist-750.html.1.tmp.tmp" [1]
-2020-07-20 17:07:29 URL:http://stormrider.io/maas-rad/introduction-to-controllers-786.html [10197/10197] -> "introduction-to-controllers-786.html.1.tmp.tmp" [1]
-2020-07-20 17:07:34 URL:http://stormrider.io/maas-rad/maas-communication-783.html [12074/12074] -> "maas-communication-783.html.1.tmp.tmp" [1]
-2020-07-20 17:07:38 URL:http://stormrider.io/maas-rad/rack-controllers-771.html [10011/10011] -> "rack-controllers-771.html.1.tmp.tmp" [1]
-2020-07-20 17:07:42 URL:http://stormrider.io/maas-rad/region-controllers-772.html [11440/11440] -> "region-controllers-772.html.1.tmp.tmp" [1]
-2020-07-20 17:07:46 URL:http://stormrider.io/maas-rad/high-availability-804.html [15718/15718] -> "high-availability-804.html.1.tmp.tmp" [1]
-2020-07-20 17:07:51 URL:http://stormrider.io/maas-rad/introduction-to-machines-829.html [30991/30991] -> "introduction-to-machines-829.html.1.tmp.tmp" [1]
-2020-07-20 17:07:55 URL:http://stormrider.io/maas-rad/add-machines-821.html [15720/15720] -> "add-machines-821.html.1.tmp.tmp" [1]
-2020-07-20 17:07:59 URL:http://stormrider.io/maas-rad/power-management-830.html [13808/13808] -> "power-management-830.html.1.tmp.tmp" [1]
-2020-07-20 17:08:03 URL:http://stormrider.io/maas-rad/commission-machines-822.html [25036/25036] -> "commission-machines-822.html.1.tmp.tmp" [1]
-2020-07-20 17:08:08 URL:http://stormrider.io/maas-rad/hardware-testing-826.html [12550/12550] -> "hardware-testing-826.html.1.tmp.tmp" [1]
-2020-07-20 17:08:12 URL:http://stormrider.io/maas-rad/network-testing-1267.html [14410/14410] -> "network-testing-1267.html.1.tmp.tmp" [1]
-2020-07-20 17:08:16 URL:http://stormrider.io/maas-rad/commissioning-and-hardware-testing-scripts-833.html [30818/30818] -> "commissioning-and-hardware-testing-scripts-833.html.1.tmp.tmp" [1]
-2020-07-20 17:08:21 URL:http://stormrider.io/maas-rad/deploy-machines-825.html [11786/11786] -> "deploy-machines-825.html.1.tmp.tmp" [1]
-2020-07-20 17:08:25 URL:http://stormrider.io/maas-rad/maas-tags-834.html [16042/16042] -> "maas-tags-834.html.1.tmp.tmp" [1]
-2020-07-20 17:08:29 URL:http://stormrider.io/maas-rad/custom-machine-setup-824.html [17101/17101] -> "custom-machine-setup-824.html.1.tmp.tmp" [1]
-2020-07-20 17:08:33 URL:http://stormrider.io/maas-rad/kernel-boot-options-827.html [9513/9513] -> "kernel-boot-options-827.html.1.tmp.tmp" [1]
-2020-07-20 17:08:38 URL:http://stormrider.io/maas-rad/resource-pools-831.html [10968/10968] -> "resource-pools-831.html.1.tmp.tmp" [1]
-2020-07-20 17:08:42 URL:http://stormrider.io/maas-rad/storage-775.html [19275/19275] -> "storage-775.html.1.tmp.tmp" [1]
-2020-07-20 17:08:46 URL:http://stormrider.io/maas-rad/vmware-vmfs-datastores-780.html [18453/18453] -> "vmware-vmfs-datastores-780.html.1.tmp.tmp" [1]
-2020-07-20 17:08:50 URL:http://stormrider.io/maas-rad/ubuntu-kernels-828.html [14488/14488] -> "ubuntu-kernels-828.html.1.tmp.tmp" [1]
-2020-07-20 17:08:55 URL:http://stormrider.io/maas-rad/images-754.html [9449/9449] -> "images-754.html.1.tmp.tmp" [1]
-2020-07-20 17:08:59 URL:http://stormrider.io/maas-rad/select-and-import-images-751.html [10910/10910] -> "select-and-import-images-751.html.1.tmp.tmp" [1]
-2020-07-20 17:09:03 URL:http://stormrider.io/maas-rad/local-image-mirror-752.html [10236/10236] -> "local-image-mirror-752.html.1.tmp.tmp" [1]
-2020-07-20 17:09:07 URL:http://stormrider.io/maas-rad/vmware-images-753.html [11444/11444] -> "vmware-images-753.html.1.tmp.tmp" [1]
-2020-07-20 17:09:11 URL:http://stormrider.io/maas-rad/networking-768.html [13012/13012] -> "networking-768.html.1.tmp.tmp" [1]
-2020-07-20 17:09:16 URL:http://stormrider.io/maas-rad/subnet-management-766.html [10153/10153] -> "subnet-management-766.html.1.tmp.tmp" [1]
-2020-07-20 17:09:20 URL:http://stormrider.io/maas-rad/managing-dhcp-759.html [15059/15059] -> "managing-dhcp-759.html.1.tmp.tmp" [1]
-2020-07-20 17:09:24 URL:http://stormrider.io/maas-rad/ip-ranges-760.html [9991/9991] -> "ip-ranges-760.html.1.tmp.tmp" [1]
-2020-07-20 17:09:28 URL:http://stormrider.io/maas-rad/proxy-763.html [10137/10137] -> "proxy-763.html.1.tmp.tmp" [1]
-2020-07-20 17:09:32 URL:http://stormrider.io/maas-rad/ntp-services-762.html [8609/8609] -> "ntp-services-762.html.1.tmp.tmp" [1]
-2020-07-20 17:09:37 URL:http://stormrider.io/maas-rad/network-discovery-758.html [8198/8198] -> "network-discovery-758.html.1.tmp.tmp" [1]
-2020-07-20 17:09:41 URL:http://stormrider.io/maas-rad/ipv6-addressing-761.html [12568/12568] -> "ipv6-addressing-761.html.1.tmp.tmp" [1]
-2020-07-20 17:09:45 URL:http://stormrider.io/maas-rad/configuring-tls-encryption-764.html [8484/8484] -> "configuring-tls-encryption-764.html.1.tmp.tmp" [1]
-2020-07-20 17:09:49 URL:http://stormrider.io/maas-rad/managing-stp-765.html [7665/7665] -> "managing-stp-765.html.1.tmp.tmp" [1]
-2020-07-20 17:09:53 URL:http://stormrider.io/maas-rad/availability-zones-820.html [11126/11126] -> "availability-zones-820.html.1.tmp.tmp" [1]
-2020-07-20 17:09:58 URL:http://stormrider.io/maas-rad/introduction-to-vm-hosting-1524.html [10445/10445] -> "introduction-to-vm-hosting-1524.html.1.tmp.tmp" [1]
-2020-07-20 17:10:02 URL:http://stormrider.io/maas-rad/vm-host-networking-1526.html [26488/26488] -> "vm-host-networking-1526.html.1.tmp.tmp" [1]
-2020-07-20 17:10:06 URL:http://stormrider.io/maas-rad/adding-a-vm-host-1549.html [12281/12281] -> "adding-a-vm-host-1549.html.1.tmp.tmp" [1]
-2020-07-20 17:10:10 URL:http://stormrider.io/maas-rad/vm-host-storage-pools-1525.html [7849/7849] -> "vm-host-storage-pools-1525.html.1.tmp.tmp" [1]
-2020-07-20 17:10:15 URL:http://stormrider.io/maas-rad/creating-and-deleting-vms-806.html [16674/16674] -> "creating-and-deleting-vms-806.html.1.tmp.tmp" [1]
-2020-07-20 17:10:19 URL:http://stormrider.io/maas-rad/prometheus-metrics-813.html [11713/11713] -> "prometheus-metrics-813.html.1.tmp.tmp" [1]
-2020-07-20 17:10:23 URL:http://stormrider.io/maas-rad/backup-792.html [13329/13329] -> "backup-792.html.1.tmp.tmp" [1]
-2020-07-20 17:10:27 URL:http://stormrider.io/maas-rad/hardening-your-maas-installation-1381.html [27767/27767] -> "hardening-your-maas-installation-1381.html.1.tmp.tmp" [1]
-2020-07-20 17:10:32 URL:http://stormrider.io/maas-rad/maas-logging-1468.html [9916/9916] -> "maas-logging-1468.html.1.tmp.tmp" [1]
-2020-07-20 17:10:36 URL:http://stormrider.io/maas-rad/commissioning-logs-1478.html [83003/83003] -> "commissioning-logs-1478.html.1.tmp.tmp" [1]
-2020-07-20 17:10:40 URL:http://stormrider.io/maas-rad/user-accounts-790.html [11597/11597] -> "user-accounts-790.html.1.tmp.tmp" [1]
-2020-07-20 17:10:44 URL:http://stormrider.io/maas-rad/interactive-search-819.html [11775/11775] -> "interactive-search-819.html.1.tmp.tmp" [1]
-2020-07-20 17:10:49 URL:http://stormrider.io/maas-rad/concepts-and-terms-785.html [45021/45021] -> "concepts-and-terms-785.html.1.tmp.tmp" [1]
-2020-07-20 17:10:53 URL:http://stormrider.io/maas-rad/maas-cli-802.html [12738/12738] -> "maas-cli-802.html.1.tmp.tmp" [1]
-2020-07-20 17:10:57 URL:http://stormrider.io/maas-rad/common-cli-tasks-794.html [18256/18256] -> "common-cli-tasks-794.html.1.tmp.tmp" [1]
-2020-07-20 17:11:01 URL:http://stormrider.io/maas-rad/audit-event-logs-791.html [12962/12962] -> "audit-event-logs-791.html.1.tmp.tmp" [1]
-2020-07-20 17:11:06 URL:http://stormrider.io/maas-rad/cli-kernel-management-799.html [10124/10124] -> "cli-kernel-management-799.html.1.tmp.tmp" [1]
-2020-07-20 17:11:10 URL:http://stormrider.io/maas-rad/cli-image-management-797.html [14161/14161] -> "cli-image-management-797.html.1.tmp.tmp" [1]
-2020-07-20 17:11:14 URL:http://stormrider.io/maas-rad/cli-interface-management-798.html [14693/14693] -> "cli-interface-management-798.html.1.tmp.tmp" [1]
-2020-07-20 17:11:18 URL:http://stormrider.io/maas-rad/cli-tag-management-801.html [11857/11857] -> "cli-tag-management-801.html.1.tmp.tmp" [1]
-2020-07-20 17:11:22 URL:http://stormrider.io/maas-rad/cli-resource-pool-management-800.html [9546/9546] -> "cli-resource-pool-management-800.html.1.tmp.tmp" [1]
-2020-07-20 17:11:27 URL:http://stormrider.io/maas-rad/cli-dhcp-snippet-management-796.html [10384/10384] -> "cli-dhcp-snippet-management-796.html.1.tmp.tmp" [1]
-2020-07-20 17:11:31 URL:http://stormrider.io/maas-rad/cli-commissioning-and-hardware-testing-scripts-832.html [14442/14442] -> "cli-commissioning-and-hardware-testing-scripts-832.html.1.tmp.tmp" [1]
-2020-07-20 17:11:35 URL:http://stormrider.io/maas-rad/cli-advanced-tasks-793.html [20902/20902] -> "cli-advanced-tasks-793.html.1.tmp.tmp" [1]
-2020-07-20 17:11:39 URL:http://stormrider.io/maas-rad/cli-composable-hardware-795.html [24507/24507] -> "cli-composable-hardware-795.html.1.tmp.tmp" [1]
-2020-07-20 17:11:44 URL:http://stormrider.io/maas-rad/python-api-client-810.html [8881/8881] -> "python-api-client-810.html.1.tmp.tmp" [1]
-2020-07-20 17:11:48 URL:http://stormrider.io/maas-rad/api-authentication-742.html [10068/10068] -> "api-authentication-742.html.1.tmp.tmp" [1]
-2020-07-20 17:11:52 URL:http://stormrider.io/maas-rad/troubleshooting-837.html [17722/17722] -> "troubleshooting-837.html.1.tmp.tmp" [1]
-2020-07-20 17:11:56 URL:http://stormrider.io/maas-rad/getting-help-838.html [8663/8663] -> "getting-help-838.html.1.tmp.tmp" [1]
-2020-07-20 17:12:00 URL:http://stormrider.io/maas-rad/tips-tricks-and-traps-1506.html [12195/12195] -> "tips-tricks-and-traps-1506.html.1.tmp.tmp" [1]
-2020-07-20 17:12:05 URL:http://stormrider.io/maas-rad/writing-guide-747.html [15788/15788] -> "writing-guide-747.html.1.tmp.tmp" [1]
-http://stormrider.io/maas-rad/about-maas-789.html:
+2020-07-21 13:17:37 ERROR 404: Not Found.
+2020-07-21 13:17:41 URL:http://stormrider.io/maas-rad/css/stylesheet.css [23306/23306] -> "stylesheet.css.tmp.tmp" [1]
+2020-07-21 13:17:46 URL:http://stormrider.io/maas-rad/about-maas-840.html [15477/15477] -> "about-maas-840.html.1.tmp.tmp" [1]
+2020-07-21 13:17:50 URL:http://stormrider.io/maas-rad/give-me-an-example-of-maas-1314.html [29914/29914] -> "give-me-an-example-of-maas-1314.html.1.tmp.tmp" [1]
+2020-07-21 13:17:54 URL:http://stormrider.io/maas-rad/explore-maas-787.html [11957/11957] -> "explore-maas-787.html.1.tmp.tmp" [1]
+2020-07-21 13:17:59 URL:http://stormrider.io/maas-rad/whats-new-in-maas-2-8-1655.html [14281/14281] -> "whats-new-in-maas-2-8-1655.html.1.tmp.tmp" [1]
+2020-07-21 13:18:03 URL:http://stormrider.io/maas-rad/maas-requirements-789.html [11536/11536] -> "maas-requirements-789.html.1.tmp.tmp" [1]
+2020-07-21 13:18:07 URL:http://stormrider.io/maas-rad/maas-installation-from-a-snap-773.html [20590/20590] -> "maas-installation-from-a-snap-773.html.1.tmp.tmp" [1]
+2020-07-21 13:18:12 URL:http://stormrider.io/maas-rad/configuration-journey-781.html [17063/17063] -> "configuration-journey-781.html.1.tmp.tmp" [1]
+2020-07-21 13:18:16 URL:http://stormrider.io/maas-rad/installation-and-configuration-checklist-750.html [13116/13116] -> "installation-and-configuration-checklist-750.html.1.tmp.tmp" [1]
+2020-07-21 13:18:20 URL:http://stormrider.io/maas-rad/introduction-to-controllers-786.html [10197/10197] -> "introduction-to-controllers-786.html.1.tmp.tmp" [1]
+2020-07-21 13:18:25 URL:http://stormrider.io/maas-rad/maas-communication-783.html [12074/12074] -> "maas-communication-783.html.1.tmp.tmp" [1]
+2020-07-21 13:18:29 URL:http://stormrider.io/maas-rad/rack-controllers-771.html [10011/10011] -> "rack-controllers-771.html.1.tmp.tmp" [1]
+2020-07-21 13:18:33 URL:http://stormrider.io/maas-rad/region-controllers-772.html [11443/11443] -> "region-controllers-772.html.1.tmp.tmp" [1]
+2020-07-21 13:18:37 URL:http://stormrider.io/maas-rad/high-availability-804.html [15750/15750] -> "high-availability-804.html.1.tmp.tmp" [1]
+2020-07-21 13:18:42 URL:http://stormrider.io/maas-rad/introduction-to-machines-829.html [30989/30989] -> "introduction-to-machines-829.html.1.tmp.tmp" [1]
+2020-07-21 13:18:46 URL:http://stormrider.io/maas-rad/add-machines-821.html [15723/15723] -> "add-machines-821.html.1.tmp.tmp" [1]
+2020-07-21 13:18:51 URL:http://stormrider.io/maas-rad/power-management-830.html [13808/13808] -> "power-management-830.html.1.tmp.tmp" [1]
+2020-07-21 13:18:55 URL:http://stormrider.io/maas-rad/commission-machines-822.html [25052/25052] -> "commission-machines-822.html.1.tmp.tmp" [1]
+2020-07-21 13:18:59 URL:http://stormrider.io/maas-rad/hardware-testing-826.html [12550/12550] -> "hardware-testing-826.html.1.tmp.tmp" [1]
+2020-07-21 13:19:04 URL:http://stormrider.io/maas-rad/network-testing-1267.html [14410/14410] -> "network-testing-1267.html.1.tmp.tmp" [1]
+2020-07-21 13:19:08 URL:http://stormrider.io/maas-rad/commissioning-and-hardware-testing-scripts-833.html [30937/30937] -> "commissioning-and-hardware-testing-scripts-833.html.1.tmp.tmp" [1]
+2020-07-21 13:19:12 URL:http://stormrider.io/maas-rad/deploy-machines-825.html [11776/11776] -> "deploy-machines-825.html.1.tmp.tmp" [1]
+2020-07-21 13:19:17 URL:http://stormrider.io/maas-rad/maas-tags-834.html [16042/16042] -> "maas-tags-834.html.1.tmp.tmp" [1]
+2020-07-21 13:19:21 URL:http://stormrider.io/maas-rad/custom-machine-setup-824.html [17107/17107] -> "custom-machine-setup-824.html.1.tmp.tmp" [1]
+2020-07-21 13:19:25 URL:http://stormrider.io/maas-rad/kernel-boot-options-827.html [9513/9513] -> "kernel-boot-options-827.html.1.tmp.tmp" [1]
+2020-07-21 13:19:30 URL:http://stormrider.io/maas-rad/resource-pools-831.html [10874/10874] -> "resource-pools-831.html.1.tmp.tmp" [1]
+2020-07-21 13:19:34 URL:http://stormrider.io/maas-rad/storage-775.html [19275/19275] -> "storage-775.html.1.tmp.tmp" [1]
+2020-07-21 13:19:38 URL:http://stormrider.io/maas-rad/vmware-vmfs-datastores-780.html [18453/18453] -> "vmware-vmfs-datastores-780.html.1.tmp.tmp" [1]
+2020-07-21 13:19:43 URL:http://stormrider.io/maas-rad/ubuntu-kernels-828.html [14488/14488] -> "ubuntu-kernels-828.html.1.tmp.tmp" [1]
+2020-07-21 13:19:47 URL:http://stormrider.io/maas-rad/images-754.html [9449/9449] -> "images-754.html.1.tmp.tmp" [1]
+2020-07-21 13:19:51 URL:http://stormrider.io/maas-rad/select-and-import-images-751.html [10910/10910] -> "select-and-import-images-751.html.1.tmp.tmp" [1]
+2020-07-21 13:19:55 URL:http://stormrider.io/maas-rad/local-image-mirror-752.html [10236/10236] -> "local-image-mirror-752.html.1.tmp.tmp" [1]
+2020-07-21 13:20:00 URL:http://stormrider.io/maas-rad/vmware-images-753.html [11444/11444] -> "vmware-images-753.html.1.tmp.tmp" [1]
+2020-07-21 13:20:04 URL:http://stormrider.io/maas-rad/networking-768.html [13021/13021] -> "networking-768.html.1.tmp.tmp" [1]
+2020-07-21 13:20:08 URL:http://stormrider.io/maas-rad/subnet-management-766.html [10153/10153] -> "subnet-management-766.html.1.tmp.tmp" [1]
+2020-07-21 13:20:13 URL:http://stormrider.io/maas-rad/managing-dhcp-759.html [15059/15059] -> "managing-dhcp-759.html.1.tmp.tmp" [1]
+2020-07-21 13:20:17 URL:http://stormrider.io/maas-rad/ip-ranges-760.html [10000/10000] -> "ip-ranges-760.html.1.tmp.tmp" [1]
+2020-07-21 13:20:21 URL:http://stormrider.io/maas-rad/proxy-763.html [10137/10137] -> "proxy-763.html.1.tmp.tmp" [1]
+2020-07-21 13:20:26 URL:http://stormrider.io/maas-rad/ntp-services-762.html [8609/8609] -> "ntp-services-762.html.1.tmp.tmp" [1]
+2020-07-21 13:20:30 URL:http://stormrider.io/maas-rad/network-discovery-758.html [8144/8144] -> "network-discovery-758.html.1.tmp.tmp" [1]
+2020-07-21 13:20:34 URL:http://stormrider.io/maas-rad/ipv6-addressing-761.html [12538/12538] -> "ipv6-addressing-761.html.1.tmp.tmp" [1]
+2020-07-21 13:20:38 URL:http://stormrider.io/maas-rad/configuring-tls-encryption-764.html [8484/8484] -> "configuring-tls-encryption-764.html.1.tmp.tmp" [1]
+2020-07-21 13:20:43 URL:http://stormrider.io/maas-rad/managing-stp-765.html [7665/7665] -> "managing-stp-765.html.1.tmp.tmp" [1]
+2020-07-21 13:20:47 URL:http://stormrider.io/maas-rad/availability-zones-820.html [11126/11126] -> "availability-zones-820.html.1.tmp.tmp" [1]
+2020-07-21 13:20:51 URL:http://stormrider.io/maas-rad/introduction-to-vm-hosting-1524.html [10435/10435] -> "introduction-to-vm-hosting-1524.html.1.tmp.tmp" [1]
+2020-07-21 13:20:56 URL:http://stormrider.io/maas-rad/vm-host-networking-1526.html [26488/26488] -> "vm-host-networking-1526.html.1.tmp.tmp" [1]
+2020-07-21 13:21:00 URL:http://stormrider.io/maas-rad/adding-a-vm-host-1549.html [12237/12237] -> "adding-a-vm-host-1549.html.1.tmp.tmp" [1]
+2020-07-21 13:21:05 URL:http://stormrider.io/maas-rad/vm-host-storage-pools-1525.html [7849/7849] -> "vm-host-storage-pools-1525.html.1.tmp.tmp" [1]
+2020-07-21 13:21:09 URL:http://stormrider.io/maas-rad/creating-and-deleting-vms-806.html [16674/16674] -> "creating-and-deleting-vms-806.html.1.tmp.tmp" [1]
+2020-07-21 13:21:14 URL:http://stormrider.io/maas-rad/prometheus-metrics-813.html [11713/11713] -> "prometheus-metrics-813.html.1.tmp.tmp" [1]
+2020-07-21 13:21:18 URL:http://stormrider.io/maas-rad/backup-792.html [13329/13329] -> "backup-792.html.1.tmp.tmp" [1]
+2020-07-21 13:21:22 URL:http://stormrider.io/maas-rad/hardening-your-maas-installation-1381.html [27778/27778] -> "hardening-your-maas-installation-1381.html.1.tmp.tmp" [1]
+2020-07-21 13:21:27 URL:http://stormrider.io/maas-rad/maas-logging-1468.html [9886/9886] -> "maas-logging-1468.html.1.tmp.tmp" [1]
+2020-07-21 13:21:31 URL:http://stormrider.io/maas-rad/commissioning-logs-1478.html [83003/83003] -> "commissioning-logs-1478.html.1.tmp.tmp" [1]
+2020-07-21 13:21:35 URL:http://stormrider.io/maas-rad/user-accounts-790.html [11597/11597] -> "user-accounts-790.html.1.tmp.tmp" [1]
+2020-07-21 13:21:40 URL:http://stormrider.io/maas-rad/interactive-search-819.html [11711/11711] -> "interactive-search-819.html.1.tmp.tmp" [1]
+2020-07-21 13:21:44 URL:http://stormrider.io/maas-rad/concepts-and-terms-785.html [44844/44844] -> "concepts-and-terms-785.html.1.tmp.tmp" [1]
+2020-07-21 13:21:49 URL:http://stormrider.io/maas-rad/maas-cli-802.html [12727/12727] -> "maas-cli-802.html.1.tmp.tmp" [1]
+2020-07-21 13:21:53 URL:http://stormrider.io/maas-rad/common-cli-tasks-794.html [18271/18271] -> "common-cli-tasks-794.html.1.tmp.tmp" [1]
+2020-07-21 13:21:57 URL:http://stormrider.io/maas-rad/audit-event-logs-791.html [12962/12962] -> "audit-event-logs-791.html.1.tmp.tmp" [1]
+2020-07-21 13:22:02 URL:http://stormrider.io/maas-rad/cli-kernel-management-799.html [10124/10124] -> "cli-kernel-management-799.html.1.tmp.tmp" [1]
+2020-07-21 13:22:06 URL:http://stormrider.io/maas-rad/cli-image-management-797.html [14161/14161] -> "cli-image-management-797.html.1.tmp.tmp" [1]
+2020-07-21 13:22:10 URL:http://stormrider.io/maas-rad/cli-interface-management-798.html [14693/14693] -> "cli-interface-management-798.html.1.tmp.tmp" [1]
+2020-07-21 13:22:14 URL:http://stormrider.io/maas-rad/cli-tag-management-801.html [11867/11867] -> "cli-tag-management-801.html.1.tmp.tmp" [1]
+2020-07-21 13:22:19 URL:http://stormrider.io/maas-rad/cli-resource-pool-management-800.html [9546/9546] -> "cli-resource-pool-management-800.html.1.tmp.tmp" [1]
+2020-07-21 13:22:23 URL:http://stormrider.io/maas-rad/cli-dhcp-snippet-management-796.html [10393/10393] -> "cli-dhcp-snippet-management-796.html.1.tmp.tmp" [1]
+2020-07-21 13:22:27 URL:http://stormrider.io/maas-rad/cli-commissioning-and-hardware-testing-scripts-832.html [14496/14496] -> "cli-commissioning-and-hardware-testing-scripts-832.html.1.tmp.tmp" [1]
+2020-07-21 13:22:32 URL:http://stormrider.io/maas-rad/cli-advanced-tasks-793.html [20913/20913] -> "cli-advanced-tasks-793.html.1.tmp.tmp" [1]
+2020-07-21 13:22:36 URL:http://stormrider.io/maas-rad/cli-composable-hardware-795.html [24507/24507] -> "cli-composable-hardware-795.html.1.tmp.tmp" [1]
+2020-07-21 13:22:40 URL:http://stormrider.io/maas-rad/python-api-client-810.html [8881/8881] -> "python-api-client-810.html.1.tmp.tmp" [1]
+2020-07-21 13:22:44 URL:http://stormrider.io/maas-rad/api-authentication-742.html [10068/10068] -> "api-authentication-742.html.1.tmp.tmp" [1]
+2020-07-21 13:22:49 URL:http://stormrider.io/maas-rad/troubleshooting-837.html [17722/17722] -> "troubleshooting-837.html.1.tmp.tmp" [1]
+2020-07-21 13:22:53 URL:http://stormrider.io/maas-rad/getting-help-838.html [8663/8663] -> "getting-help-838.html.1.tmp.tmp" [1]
+2020-07-21 13:22:57 URL:http://stormrider.io/maas-rad/tips-tricks-and-traps-1506.html [12195/12195] -> "tips-tricks-and-traps-1506.html.1.tmp.tmp" [1]
+2020-07-21 13:23:02 URL:http://stormrider.io/maas-rad/writing-guide-747.html [15788/15788] -> "writing-guide-747.html.1.tmp.tmp" [1]
+2020-07-21 13:23:06 URL:http://stormrider.io/maas-rad/historical-release-notes-835.html [100303/100303] -> "historical-release-notes-835.html.1.tmp.tmp" [1]
+http://stormrider.io/t/commission-machines/822:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/rack-controller-771.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/region-controller-772.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/node-overview-829.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/add-nodes-821.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/bmc-power-types-830.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/commission-nodes-822.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/deploy-nodes-825.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/tags-834.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/custom-node-setup-preseed-824.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/dhcp-759.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/ntp-762.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/ipv6-761.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/ssl-764.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/stp-765.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/creating-and-deleting-new-vms-806.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/advanced-cli-tasks-793.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/cli-composable-machines-management-795.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/api-client-810.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/non-snap-maas-installs-1308.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/upgrading-maas-779.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/upgrade-2-3-to-2-4-from-ubuntu-16-04-777.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/upgrade-from-1-9-to-2-x-778.html:
-Remote file does not exist -- broken link!!!
-2020-07-20 17:12:57 URL:http://stormrider.io/maas-rad/contact-us-743.html [8105/8105] -> "contact-us-743.html.1.tmp.tmp" [1]
-http://stormrider.io/maas-rad/web-ui-782.html:
-Remote file does not exist -- broken link!!!
-2020-07-20 17:13:04 URL:http://stormrider.io/maas-rad/historical-release-notes-835.html [100398/100398] -> "historical-release-notes-835.html.1.tmp.tmp" [1]
-http://stormrider.io/maas-rad/setting-up-a-flexible-virtual-maas-test-environment-142.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/install-from-a-snap-773.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/docs/high-availability:
-Remote file does not exist -- broken link!!!
-2020-07-20 17:13:14 URL:http://stormrider.io/maas-rad/postgresql-ha-hot-standby-803.html [13926/13926] -> "postgresql-ha-hot-standby-803.html.1.tmp.tmp" [1]
+2020-07-21 13:23:13 URL:http://stormrider.io/maas-rad/postgresql-ha-hot-standby-803.html [13926/13926] -> "postgresql-ha-hot-standby-803.html.1.tmp.tmp" [1]
 http://stormrider.io/maas-rad/introduction-to-machines-829.htmlw:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/introdunction-to-machines-829.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/cli-testing-scripts-832.html:
-Remote file does not exist -- broken link!!!
-2020-07-20 17:13:25 URL:http://stormrider.io/maas-rad/disk-erasure-774.html [9830/9830] -> "disk-erasure-774.html.1.tmp.tmp" [1]
-2020-07-20 17:13:29 URL:http://stormrider.io/maas-rad/block-devices-749.html [23034/23034] -> "block-devices-749.html.1.tmp.tmp" [1]
-2020-07-20 17:13:33 URL:http://stormrider.io/maas-rad/maas-image-builder-1112.html [15963/15963] -> "maas-image-builder-1112.html.1.tmp.tmp" [1]
+2020-07-21 13:23:19 URL:http://stormrider.io/maas-rad/disk-erasure-774.html [9550/9550] -> "disk-erasure-774.html.1.tmp.tmp" [1]
+2020-07-21 13:23:23 URL:http://stormrider.io/maas-rad/block-devices-749.html [23034/23034] -> "block-devices-749.html.1.tmp.tmp" [1]
+2020-07-21 13:23:28 URL:http://stormrider.io/maas-rad/maas-image-builder-1112.html [15963/15963] -> "maas-image-builder-1112.html.1.tmp.tmp" [1]
 http://stormrider.io/t/common-ou%20cli-tasks/794:
 Remote file does not exist -- broken link!!!
-2020-07-20 17:13:39 URL:http://stormrider.io/maas-rad/zone-examples-784.html [9047/9047] -> "zone-examples-784.html.1.tmp.tmp" [1]
-http://stormrider.io/maas-rad/adding-a-vm-host-2-8-draft-1549.html:
+2020-07-21 13:23:34 URL:http://stormrider.io/maas-rad/zone-examples-784.html [9047/9047] -> "zone-examples-784.html.1.tmp.tmp" [1]
+http://stormrider.io/maas-rad/=/test-logs/1479:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/intro-to-vm-hosts-2-8-draft-1549.html:
+http://stormrider.io/maas-rad/=/machine-logs/1480:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/configuring-ssl-764.html:
+http://stormrider.io/maas-rad/=/event-logs/1481:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/test-logs-1479.html:
+http://stormrider.io/maas-rad/=/the-maas-log-file/1482:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/machine-logs-1480.html:
+http://stormrider.io/maas-rad/=/the-rackd-log-file/1483:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/event-logs-1481.html:
+http://stormrider.io/maas-rad/=/the-regiond-log-file/1484:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/the-maas-log-file-1482.html:
+http://stormrider.io/maas-rad/=/the-http-access-log-file/1485:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/the-rackd-log-file-1483.html:
+http://stormrider.io/maas-rad/=/the-http-error-log-file/1486:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/the-regiond-log-file-1484.html:
+http://stormrider.io/maas-rad/=/the-proxy-log-files/1487:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/the-http-access-log-file-1485.html:
+http://stormrider.io/maas-rad/=/the-maas-rsyslog-files/1488:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/the-http-error-log-file-1486.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/the-proxy-log-files-1487.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/the-maas-rsyslog-files-1488.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/cli-hardware-testing-scripts-832.html:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/t/cli-hardware-testing-scripts/832:
+http://stormrider.io/maas-rad/t/cli-commissioning-and-hardware-testing-scripts/832:
 Remote file does not exist -- broken link!!!
 http://stormrider.io/maas-rad/manage-cli-common:
 Remote file does not exist -- broken link!!!
@@ -181,79 +116,32 @@ http://stormrider.io/maas-rad/introduction-to-vm-hosting-1524.html/:
 Remote file does not exist -- broken link!!!
 http://stormrider.io/docs/api:
 Remote file does not exist -- broken link!!!
-2020-07-20 17:14:21 URL:http://stormrider.io/maas-rad/add-a-vm-host-1523.html [14951/14951] -> "add-a-vm-host-1523.html.tmp.tmp" [1]
-2020-07-20 17:14:26 URL:http://stormrider.io/maas-rad/manage-composable-machines-812.html [17171/17171] -> "manage-composable-machines-812.html.1.tmp.tmp" [1]
-http://stormrider.io/maas-rad/language-details-contributing-to-juju-docs-745.html:
+2020-07-21 13:24:08 URL:http://stormrider.io/maas-rad/add-a-vm-host-1523.html [14951/14951] -> "add-a-vm-host-1523.html.tmp.tmp" [1]
+2020-07-21 13:24:12 URL:http://stormrider.io/maas-rad/manage-composable-machines-812.html [17072/17072] -> "manage-composable-machines-812.html.1.tmp.tmp" [1]
+2020-07-21 13:24:17 URL:http://stormrider.io/maas-rad/language-details-contributing-to-maas-docs-745.html [9550/9550] -> "language-details-contributing-to-maas-docs-745.html.1.tmp.tmp" [1]
+http://stormrider.io/t/%20whats-new-in-maas-2-6/1305T:
 Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/maas-2-6-historical-release-notes-1305.html:
-Remote file does not exist -- broken link!!!
-2020-07-20 17:14:34 URL:http://stormrider.io/maas-rad/pods-823.html [16420/16420] -> "pods-823.html.tmp.tmp" [1]
-http://stormrider.io/maas-rad/heading--erasure-types:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/heading--default-configuration:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/heading--order-of-preference:
-Remote file does not exist -- broken link!!!
-http://stormrider.io/maas-rad/manage-pods-intro.md:
-Remote file does not exist -- broken link!!!
-Found 55 broken links.
+Found 18 broken links.
 
-http://stormrider.io/maas-rad/cli-testing-scripts-832.html
-http://stormrider.io/maas-rad/cli-composable-machines-management-795.html
-http://stormrider.io/maas-rad/ssl-764.html
-http://stormrider.io/maas-rad/upgrade-from-1-9-to-2-x-778.html
-http://stormrider.io/maas-rad/upgrade-2-3-to-2-4-from-ubuntu-16-04-777.html
-http://stormrider.io/maas-rad/advanced-cli-tasks-793.html
-http://stormrider.io/maas-rad/custom-node-setup-preseed-824.html
-http://stormrider.io/maas-rad/api-client-810.html
-http://stormrider.io/maas-rad/rack-controller-771.html
-http://stormrider.io/maas-rad/manage-pods-intro.md
-http://stormrider.io/maas-rad/commission-nodes-822.html
-http://stormrider.io/maas-rad/heading--erasure-types
-http://stormrider.io/maas-rad/introdunction-to-machines-829.html
-http://stormrider.io/maas-rad/setting-up-a-flexible-virtual-maas-test-environment-142.html
-http://stormrider.io/maas-rad/tags-834.html
-http://stormrider.io/maas-rad/language-details-contributing-to-juju-docs-745.html
-http://stormrider.io/maas-rad/the-maas-log-file-1482.html
-http://stormrider.io/docs/high-availability
-http://stormrider.io/maas-rad/stp-765.html
-http://stormrider.io/maas-rad/web-ui-782.html
-http://stormrider.io/maas-rad/deploy-nodes-825.html
-http://stormrider.io/maas-rad/the-proxy-log-files-1487.html
+http://stormrider.io/maas-rad/=/the-regiond-log-file/1484
+http://stormrider.io/maas-rad/=/the-http-access-log-file/1485
+http://stormrider.io/maas-rad/introduction-to-machines-829.htmlw
+http://stormrider.io/t/common-ou%20cli-tasks/794
+http://stormrider.io/maas-rad/=/machine-logs/1480
+http://stormrider.io/maas-rad/=/the-maas-log-file/1482
+http://stormrider.io/maas-rad/=/the-rackd-log-file/1483
+http://stormrider.io/maas-rad/=/the-http-error-log-file/1486
+http://stormrider.io/maas-rad/=/the-proxy-log-files/1487
+http://stormrider.io/maas-rad/=/the-maas-rsyslog-files/1488
+http://stormrider.io/maas-rad/=/test-logs/1479
+http://stormrider.io/maas-rad/t/cli-commissioning-and-hardware-testing-scripts/832
+http://stormrider.io/t/commission-machines/822
 http://stormrider.io/maas-rad/manage-cli-common
 http://stormrider.io/maas-rad/introduction-to-vm-hosting-1524.html/
-http://stormrider.io/maas-rad/t/cli-hardware-testing-scripts/832
-http://stormrider.io/t/common-ou%20cli-tasks/794
-http://stormrider.io/maas-rad/the-http-error-log-file-1486.html
-http://stormrider.io/maas-rad/add-nodes-821.html
-http://stormrider.io/maas-rad/the-rackd-log-file-1483.html
-http://stormrider.io/maas-rad/heading--default-configuration
-http://stormrider.io/maas-rad/ipv6-761.html
+http://stormrider.io/maas-rad/=/event-logs/1481
 http://stormrider.io/docs/api
-http://stormrider.io/maas-rad/maas-2-6-historical-release-notes-1305.html
-http://stormrider.io/maas-rad/upgrading-maas-779.html
-http://stormrider.io/maas-rad/dhcp-759.html
-http://stormrider.io/maas-rad/non-snap-maas-installs-1308.html
-http://stormrider.io/maas-rad/node-overview-829.html
-http://stormrider.io/maas-rad/heading--order-of-preference
-http://stormrider.io/maas-rad/install-from-a-snap-773.html
-http://stormrider.io/maas-rad/region-controller-772.html
-http://stormrider.io/maas-rad/ntp-762.html
-http://stormrider.io/maas-rad/creating-and-deleting-new-vms-806.html
-http://stormrider.io/maas-rad/the-http-access-log-file-1485.html
-http://stormrider.io/maas-rad/the-regiond-log-file-1484.html
-http://stormrider.io/maas-rad/introduction-to-machines-829.htmlw
-http://stormrider.io/maas-rad/about-maas-789.html
-http://stormrider.io/maas-rad/cli-hardware-testing-scripts-832.html
-http://stormrider.io/maas-rad/event-logs-1481.html
-http://stormrider.io/maas-rad/the-maas-rsyslog-files-1488.html
-http://stormrider.io/maas-rad/adding-a-vm-host-2-8-draft-1549.html
-http://stormrider.io/maas-rad/machine-logs-1480.html
-http://stormrider.io/maas-rad/test-logs-1479.html
-http://stormrider.io/maas-rad/configuring-ssl-764.html
-http://stormrider.io/maas-rad/bmc-power-types-830.html
-http://stormrider.io/maas-rad/intro-to-vm-hosts-2-8-draft-1549.html
+http://stormrider.io/t/%20whats-new-in-maas-2-6/1305T
 
-FINISHED --2020-07-20 17:14:42--
-Total wall clock time: 8m 0s
-Downloaded: 86 files, 1.4M in 2.2s (639 KB/s)
+FINISHED --2020-07-21 13:24:19--
+Total wall clock time: 6m 46s
+Downloaded: 85 files, 1.3M in 4.4s (307 KB/s)

@@ -38,7 +38,7 @@ maas $PROFILE machine update $SYSTEM_ID \
     power_parameters_power_id=$HOSTNAME
 ```
 
-See [Common CLI tasks](/t/common-cli-tasks/794#heading--determine-a-node-system-id) for how to find a machine's system id and [BMC Power Types](/t/bmc-power-types/830) for details on different power types.
+See [Common CLI tasks](/t/common-cli-tasks/794#heading--determine-a-node-system-id) for how to find a machine's system id and [BMC Power Types](/t/power-management/830) for details on different power types.
 
 <h2 id="heading--relay-dhcp">Relay DHCP</h2>
 
@@ -54,7 +54,7 @@ For example, to relay VLAN with vid 0 (on fabric-2) through VLAN with id 5002 :
 maas $PROFILE vlan update 2 0 relay_van=5002
 ```
 
-See [DHCP relay](/t/dhcp/759#heading--dhcp-relay) for more information.
+See [DHCP relay](/t/managing-dhcp/759#heading--dhcp-relay) for more information.
 
 <h2 id="heading--assign-a-network-interface-to-a-fabric">Assign a network interface to a fabric</h2>
 
@@ -165,7 +165,7 @@ If instead of DHCP, you desire a static address, then the second command would l
 maas $PROFILE interface link-subnet exqn37 58 mode=static subnet=192.168.1.0/24 ip_address=192.168.1.113
 ```
 
-For a summary of IP assignment modes see [Post-commission configuration](/t/commission-nodes/822#heading--post-commission-configuration).
+For a summary of IP assignment modes see [Post-commission configuration](/t/commission-machines/822#heading--post-commission-configuration).
 
 <h2 id="heading--install-a-rack-controller">Install a rack controller</h2>
 
@@ -193,7 +193,7 @@ sudo maas-rack register --url http://10.5.1.5:5240/MAAS \
     --secret fa847000e7cb681101d26e3477e6e39e
 ```
 
-See [Rack controller](/t/rack-controller/771) for an overview.
+See [Rack controller](/t/rack-controllers/771) for an overview.
 
 <h2 id="heading--list-rack-controllers">List rack controllers</h2>
 

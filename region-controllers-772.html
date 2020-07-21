@@ -406,7 +406,7 @@ This functionality is available starting from MAAS 2.4.
 <p>The MAAS Region Controller is a daemon collection of 4 workers that are in charge of handling all the internals of MAAS. The regiond workers handle the UI, API and the internal communication between Region and Rack controllers.</p>
 <p>In larger environments, which multiple rack controllers, you can easily improve performance within a region.  You can increase the number of workers, which allows faster (parallel) handling of internal communication between region and rack controllers.</p>
 <p>[note]
-Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="/docs/high-availability#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.</p>
+Increasing the number of workers will also increase the number of required database connections by 11 per extra worker. This may required PostgreSQL to have an increased number of allowed connections; please see <a href="high-availability-804.html#heading--region-controller-ha">PostgreSQL High Availability section</a> for more information to increase the connections.</p>
 <p>To increase the number of workers, simply edit <code>regiond.conf (/etc/maas/regiond.conf)</code> and set <code>num_workers</code>. For example:</p>
 <pre><code>[...]
 num_workers: 8

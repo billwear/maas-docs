@@ -9,7 +9,7 @@ This article delves into these issues and offers guidance on how to set up and m
 #### Quick questions you may have: 
 
 * [What are reserved IP ranges?](/t/concepts-and-terms/785#heading--ip-ranges)
-* [What is post-commission configuration](/t/commission-nodes/822#heading--post-commission-configuration)
+* [What is post-commission configuration](/t/commission-machines/822#heading--post-commission-configuration)
 * [How and why should I enable MAAS-managed DHCP?](/t/managing-dhcp/759#heading--enabling-dhcp)
 * [How do I resolve IP conflicts?](/t/managing-dhcp/759#heading--resolving-ip-conflicts)
 * [How can I extend a reserved dynamic IP range?](/t/managing-dhcp/759#heading--extending-a-reserved-dynamic-ip-range)
@@ -60,7 +60,7 @@ To relay from one VLAN (source) to another VLAN (target):
 
 2.  Set up the external relay. This relay is set up independently from MAAS. See [DHCP relay](/t/concepts-and-terms/785#heading--dhcp-relay) for software suggestions.
 
-3.  Configure MAAS-managed DHCP. Navigate to the source VLAN page and select the 'Relay DHCP' action. Fill in the fields in the resulting form. The crucial setting is the target VLAN ('Relay VLAN'). Press the 'Relay DHCP' button to finish. See [MAAS CLI](/t/advanced-cli-tasks/793#heading--relay-dhcp) for how to do this with the CLI.
+3.  Configure MAAS-managed DHCP. Navigate to the source VLAN page and select the 'Relay DHCP' action. Fill in the fields in the resulting form. The crucial setting is the target VLAN ('Relay VLAN'). Press the 'Relay DHCP' button to finish. See [MAAS CLI](/t/cli-advanced-tasks/793#heading--relay-dhcp) for how to do this with the CLI.
 
 <h2 id="heading--dhcp-snippets">DHCP Snippets</h2>
 

@@ -14,7 +14,7 @@ When you enable management for a subnet, MAAS will:
 -   Lease addresses for DHCP from a reserved dynamic IP range
 -   Assign static addresses not included in a reserved IP range, typically via 'Auto assign' IP allocation mode for a node.
 
-See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-nodes/822#heading--post-commission-configuration) for information on IP allocation modes.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for an explanation of the two kinds of reserved IP ranges MAAS uses and [Post-commission configuration](/t/commission-machines/822#heading--post-commission-configuration) for information on IP allocation modes.
 
 <h2 id="heading--unmanaged-subnets">Unmanaged subnets</h2>
 

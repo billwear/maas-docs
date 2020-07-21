@@ -6,10 +6,10 @@ You **must** [configure your network](/t/vm-host-networking/1526) to support a V
 
 * [How do I configure networking for VM hosts?](/t/vm-host-networking/1526)
 * [How do I set up SSH when manually adding a VM host?](/t/vm-host-networking/1526#heading--set-up-ssh)
-* [How do I add a VM host with the web UI?](/t/intro-to-vm-hosts-2-8-draft/1549#heading--adding-a-vm-host)
-* [How do I add a VM host with the API/CLI?](/t/intro-to-vm-hosts-2-8-draft/1549#heading--adding-a-vm-host-cli)
-* [How do I configure a VM host after I've added it?](/t/intro-to-vm-hosts-2-8-draft/1549#heading--configuration)
-* [How do I overcommit resources on a VM host?](/t/intro-to-vm-hosts-2-8-draft/1549#heading--overcommit-resources)
+* [How do I add a VM host with the web UI?](/t/adding-a-vm-host/1549#heading--adding-a-vm-host)
+* [How do I add a VM host with the API/CLI?](/t/adding-a-vm-host/1549#heading--adding-a-vm-host-cli)
+* [How do I configure a VM host after I've added it?](/t/adding-a-vm-host/1549#heading--configuration)
+* [How do I overcommit resources on a VM host?](/t/adding-a-vm-host/1549#heading--overcommit-resources)
 * [How do I add a VM host using MAAS versions below 2.5?](https://old-docs.maas.io/2.5/en/manage-kvm-add-host)
 
 

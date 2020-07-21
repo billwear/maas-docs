@@ -3,7 +3,7 @@ This document lists tag management tasks you can perform with the MAAS CLI.
 #### Quick questions you may have:
 
 * [How do I get started with the MAAS CLI?](/t/maas-cli/802)
-* [What are tags and how do I use them?](/t/tags/834)
+* [What are tags and how do I use them?](/t/maas-tags/834)
 * [How do I effect rudimentary tag creation?](/t/cli-tag-management/801#heading--rudimentary-tag-creation)
 * [How do I do tag creation and auto-assignment?](/t/cli-tag-management/801#heading--tag-creation-and-auto-assignment)
 * [How do I delete a tag?](/t/cli-tag-management/801#heading--delete-a-tag)
@@ -21,7 +21,7 @@ maas $PROFILE tags create name=$TAG_NAME
 
 <h2 id="heading--tag-creation-and-auto-assignment">Tag creation and auto-assignment</h2>
 
-When you supply a [definition](/t/tags/834#heading--tag-definitions) during a tag's creation, MAAS automatically applies the tag o all the nodes that satisfy the definition:
+When you supply a [definition](/t/maas-tags/834#heading--tag-definitions) during a tag's creation, MAAS automatically applies the tag o all the nodes that satisfy the definition:
 
 ``` bash
 maas $PROFILE tags create name=$TAG_NAME \

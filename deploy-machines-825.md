@@ -1,4 +1,4 @@
-Once a machine has been commissioned (see [Commission machines](/t/commission-nodes/822)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
+Once a machine has been commissioned (see [Commission machines](/t/commission-machines/822)) the next logical step is to deploy it. Deploying a machine means, effectively, to install an operating system on it.
 
 #### Quick questions you may have:
 
@@ -13,7 +13,7 @@ Machines deployed with MAAS will also be ready to accept connections via SSH, to
 Juju adds SSH keys to machines under its control.
 [/note]
 
-MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-node-setup-preseed/824).
+MAAS also supports machine customisation with a process called "preseeding." For more information about customising machines, see [Custom machine setup](/t/custom-machine-setup/824).
 
 <h2 id="heading--acquire">Acquire</h2>
 
@@ -38,7 +38,7 @@ To deploy, you must configure the underlying machine to netboot.  Such a machine
     2.  Squashfs image (same as above) is placed on disk
 
 [note]
-The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-node-setup-preseed/824).
+The curtin installer uses an image-based method and is now the only installer used by MAAS. Although the older debian-installer method has been removed, curtin continues to support preseed files. For more information about customising machines see [Custom machine setup](/t/custom-machine-setup/824).
 [/note]
 
 Before deploying, you should:

@@ -4,7 +4,7 @@ Enlistment happens when MAAS starts; it reaches out on connected subnets to loca
 
 Since MAAS doesn’t know whether you might intend to actually include these discovered machines in your cloud configuration, it won’t automatically take them over, but it will read them to get an idea how they’re set up. MAAS then presents these machines to you with a MAAS state of “New.” This allows you to examine them and decide whether or not you want MAAS to manage them.
 
-When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-nodes/821)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/833) to meet your specific needs.
+When you configure a machine to netboot -- and turn it on while connected to the network -- MAAS will enlist it, giving it a status of "New."  You can also [add a machine manually](/t/add-machines/821)).  In either case, the next step is *commissioning*, which boots the machine into an ephemeral Ubuntu kernel so that resource information can be gathered.  You can also run [custom commissioning scripts](/t/commissioning-and-hardware-testing-scripts/833) to meet your specific needs.
 
 #### Questions you may have:
 
@@ -60,7 +60,7 @@ See [MAAS CLI](/t/common-cli-tasks/794#heading--commission-a-node) for how to co
 
 Once commissioned, a machine's status will change to Ready, and an extra tab for the machine called 'Commissioning' will become available. This tab contains the results of the scripts executed during the commissioning process.
 
-Once commissioned, you may consider [creating or applying a tag](/t/tags/834) to this machine.  The next step is [deployment](/t/deploy-nodes/825).
+Once commissioned, you may consider [creating or applying a tag](/t/maas-tags/834) to this machine.  The next step is [deployment](/t/deploy-machines/825).
 
 <h3 id="heading--numa-sriov-commissioning">Commission NUMA and SR-IOV nodes</h3>
 
@@ -108,7 +108,7 @@ In both enlistment and commissioning, MAAS uses either the MAC address or the UU
 
 <h2 id="heading--post-commission-configuration">Post-commission configuration</h2>
 
-Once commissioned, you can configure the machine's network interface(s). Specifically, when a machine's status is either 'Ready' or 'Broken', interfaces can be added/removed, attached to a fabric and linked to a subnet, and provided an IP assignment mode. Tags can also be assigned to specific network interfaces (see [Tags for network interfaces](/t/tags/834#heading--tags-for-network-interfaces)).
+Once commissioned, you can configure the machine's network interface(s). Specifically, when a machine's status is either 'Ready' or 'Broken', interfaces can be added/removed, attached to a fabric and linked to a subnet, and provided an IP assignment mode. Tags can also be assigned to specific network interfaces (see [Tags for network interfaces](/t/maas-tags/834#heading--tags-for-network-interfaces)).
 
 From a machine's 'Interfaces' page, click the menu icon for the interface to be edited and select 'Edit Physical' from the resulting menu:
 
@@ -130,7 +130,7 @@ Four modes determine how a subnet address is assigned when MAAS deploys the mach
 
 Press the 'Save' button to apply the changes.
 
-See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for the definitions of reserved range types and [MAAS CLI - advanced tasks](/t/advanced-cli-tasks/793#heading--change-the-ip-assignment-mode-of-a-network-interface) to learn how to change the IP-assignment mode of a network interface using the CLI.
+See [Concepts and terms](/t/concepts-and-terms/785#heading--ip-ranges) for the definitions of reserved range types and [MAAS CLI - advanced tasks](/t/cli-advanced-tasks/793#heading--change-the-ip-assignment-mode-of-a-network-interface) to learn how to change the IP-assignment mode of a network interface using the CLI.
 
 <h3 id="heading--bond-interfaces">Bond interfaces and how to create one</h3>
 

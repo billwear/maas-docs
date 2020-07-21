@@ -393,7 +393,7 @@
     power_parameters_power_id=$HOSTNAME
 </code></pre>
 
-<p>See <a href="common-cli-tasks-794.html#heading--determine-a-node-system-id">Common CLI tasks</a> for how to find a machine&rsquo;s system id and <a href="bmc-power-types-830.html">BMC Power Types</a> for details on different power types.</p>
+<p>See <a href="common-cli-tasks-794.html#heading--determine-a-node-system-id">Common CLI tasks</a> for how to find a machine&rsquo;s system id and <a href="power-management-830.html">BMC Power Types</a> for details on different power types.</p>
 <h2 id="heading--relay-dhcp">Relay DHCP</h2>
 
 <p>To relay DHCP traffic for a VLAN (source) through another VLAN (target):</p>
@@ -404,7 +404,7 @@
 <pre><code class="bash">maas $PROFILE vlan update 2 0 relay_van=5002
 </code></pre>
 
-<p>See <a href="dhcp-759.html#heading--dhcp-relay">DHCP relay</a> for more information.</p>
+<p>See <a href="managing-dhcp-759.html#heading--dhcp-relay">DHCP relay</a> for more information.</p>
 <h2 id="heading--assign-a-network-interface-to-a-fabric">Assign a network interface to a fabric</h2>
 
 <p>This task is made easier with the aid of the <code>jq</code> utility. It filters the <code>maas</code> command (JSON formatted) output and prints it in the desired way, which allows you to view and compare data quickly. Go ahead and install it:</p>
@@ -483,7 +483,7 @@ maas $PROFILE interface link-subnet exqn37 58 mode=dhcp subnet=192.168.1.0/24
 <pre><code class="bash">maas $PROFILE interface link-subnet exqn37 58 mode=static subnet=192.168.1.0/24 ip_address=192.168.1.113
 </code></pre>
 
-<p>For a summary of IP assignment modes see <a href="commission-nodes-822.html#heading--post-commission-configuration">Post-commission configuration</a>.</p>
+<p>For a summary of IP assignment modes see <a href="commission-machines-822.html#heading--post-commission-configuration">Post-commission configuration</a>.</p>
 <h2 id="heading--install-a-rack-controller">Install a rack controller</h2>
 
 <p>To install and register a rack controller with the MAAS:</p>
@@ -502,7 +502,7 @@ The register command is not required when you are adding a rack controller to a 
     --secret fa847000e7cb681101d26e3477e6e39e
 </code></pre>
 
-<p>See <a href="rack-controller-771.html">Rack controller</a> for an overview.</p>
+<p>See <a href="rack-controllers-771.html">Rack controller</a> for an overview.</p>
 <h2 id="heading--list-rack-controllers">List rack controllers</h2>
 
 <p>To list all rack controllers registered with the region:</p>
