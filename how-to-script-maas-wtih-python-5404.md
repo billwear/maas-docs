@@ -1,4 +1,4 @@
-The `python-libmaas` client library provides access to various MAAS endpoints. This page explains how to use it.
+The `python-libmaas` client library provides access to various MAAS endpoints, so that you can write Python scripts to control MAAS.  This page provides links to the necessary references and instructions.
 
 ## Library endpoints
 
