@@ -1,3 +1,13 @@
+MAAS logs help you find issues, spot configuration mistakes, and audit the use of your system.  Several types of logs are supported, including:
+
+- System logs
+- Event logs
+- Commissioning logs
+- Testing logs
+- Audit event logs
+
+Each of these has a specific purpose, as described in this document.
+
 ## Checking Logs in Systemd (MAAS 3.5 and Newer)
 
 Starting with version 3.5, MAAS logs are saved in systemd. Use these commands to view the logs based on how you installed MAAS (snap or Debian packages):
