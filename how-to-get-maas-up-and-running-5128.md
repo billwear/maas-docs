@@ -110,6 +110,21 @@ The following general notes apply to an upgrade:
 - **Backup your data:** Always create a backup before upgrading.
 - **Multi-node setups:** Upgrade rack nodes first, then region nodes.
 
+## Upgrade to MAAS 3.6
+
+### Upgrade Snap (region + rack)
+
+```bash
+sudo snap refresh maas --channel=3.6/stable
+```
+
+### Upgrade package (PPA-based installations)
+
+```bash
+sudo apt-add-repository ppa:maas/3.6
+sudo apt update && sudo apt upgrade maas
+```
+
 ##  Upgrade to MAAS 3.5
 
 ### Upgrade Snap (region + rack)
@@ -186,6 +201,13 @@ sudo apt update && sudo apt upgrade maas
 - **PostgreSQL 12 is deprecated in MAAS 3.3 and unsupported in 3.5.** Upgrade to PostgreSQL 14 before proceeding.
 
 ## Additional notes
+
+The following general notes apply to an upgrade:
+
+* Review PostgreSQL Requirements: MAAS 3.6 supports Postgres 14 and recommends PostgreSQL 16. [Upgrade instructions to Postgres 14 here.](https://maas.io/docs/how-to-upgrade-postgresql-v12-to-v14) [Upgrade instructions to Postgres 16 here.](https://maas.io/docs/how-to-upgrade-from-postgresql-v14-to-v16)
+* Upgrade Ubuntu if needed: Ensure you’re running Ubuntu 24.04 (Noble) before upgrading MAAS.
+* Backup your data: Always create a backup before upgrading.
+* Multi-node setups: Upgrade rack nodes first, then region nodes
 
 ### Avoiding NTP conflicts
 

@@ -278,7 +278,7 @@ You can disconnect a given interface from its current network configuration. Thi
 - Removes assigned IP addresses
 - Detaches from any associated VLAN
 
-This actioni is only available if the machine is in a `Ready` or `Broken` state.
+This action is only available if the machine is in a `Ready` or `Broken` state.
 
 **CLI**
 ```bash
@@ -689,4 +689,3 @@ maas $PROFILE ipranges create type=dynamic subnet=$SUBNET_ADDRESS start_ip=$IP_D
 ```bash
 maas $PROFILE ipranges create type=reserved subnet=$SUBNET_ADDRESS start_ip=$IP_STATIC_RANGE_LOW end_ip=$IP_STATIC_RANGE_HIGH
 ```
-	

@@ -329,7 +329,7 @@ Optional Int. (Physical interfaces) The speed of the link in Mbit/s. (Default: 0
 | -d, --debug | Display more information about API responses. |
 | -k, --insecure | Disable SSL certificate check |
 
-## Create a bond inteface
+## Create a bond interface
 
 ```bash
 maas $PROFILE interfaces create-bond [--help] [-d] [-k] system_id [data ...]

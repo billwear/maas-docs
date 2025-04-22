@@ -1,8 +1,8 @@
 <h2>Overview</h2>
 
-Time to try MAAS! We wanted to make it easier to go hands on with MAAS, so we created this tutorial to enable people to do that, right on their own PC or laptop. Below, we'll explain a bit about how MAAS works and then dive straight into it. 
+Time to try MAAS. We wanted to make it easier to go hands on with MAAS, so we created this tutorial to enable people to do that, right on their own PC or laptop. Below, we'll explain a bit about how MAAS works and then dive straight into it. 
 
-Hang in there, because you'll be up and running in no time, installing operating systems with ease and without breaking a sweat!
+Hang in there, because you'll be up and running in no time, installing operating systems with ease and without breaking a sweat.
 
 Installing [MAAS](https://maas.io) itself is easy, but building an environment to play with it is more involved. MAAS works by detecting servers that attempt to boot via a network (called **PXE booting**). This means that MAAS needs to be on the same network as the servers.
 
@@ -26,7 +26,7 @@ When we're finished, you'll be able to log in to the MAAS server running inside 
 
 You will need:
 
-* Ubuntu 18.04 LTS or higher OR Windows with Hyper-V 
+* Ubuntu 18.04 LTS or higher or Windows with Hyper-V 
 (**Note:** this tutorial has been tested with Ubuntu, but there are reports it works with Hyper-V on Windows. Read more about enabling Hyper-V [here](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v).)
 * 16 GB of RAM
 * A quad core CPU with virtualization support (Intel VT or AMD-V)
@@ -37,7 +37,7 @@ The memory and disk space is required because we will later be launching nested 
 
 ### Don't have the right machine?
 
-If you don't have the right machine or OS to try the tutorial, don't worry - we have created a quick video of ourselves running through the tutorial which you can [watch here.](https://www.youtube.com/watch?v=5mjEbQ5Jb1Y)
+If you don't have the right machine or OS to try the tutorial, we have created a quick video of ourselves running through the tutorial which you can [watch here.](https://www.youtube.com/watch?v=5mjEbQ5Jb1Y)
 
 <h2>Install Multipass</h2>
 
@@ -72,7 +72,7 @@ Delete the test VM, and purge it:
 multipass delete --purge foo
 ```
 
-Congratulations, you've just run a test VM with Multipass! Now it's time to create your MAAS and LXD environment.
+Congratulations, you've just run a test VM with Multipass. Now it's time to create your MAAS and LXD environment.
 
 <h2>Check whether virtualization is working</h2>
 
@@ -96,7 +96,7 @@ Assuming your machine supports hardware virtualization, we are ready to move on 
 > The tutorial **will not work** unless you have ensured virtualization support is enabled.
 > The first place to check if you don't see the expected output is your BIOS - consult your motherboard or laptop manufacturer documentation if you are uncertain.
 
-<h2>Launch the MAAS and LXD Multipass environment</h2>
+## Launch the MAAS and LXD Multipass environment
 
 Launching the MAAS and LXD VM is as simple as the test VM was to launch, except that this time you will pass a [cloud-init config file](https://github.com/canonical/maas-multipass/blob/main/maas.yml), and a few other parameters for CPU cores, memory, and disk space.
 
@@ -129,7 +129,7 @@ Here you can see two IP addresses. One belongs to the internal network (10.10.10
 
 The internal network is 10.10.10.0/24. Take note of the other IP address; you will need it in the following steps. In the above output, that IP address is **`10.97.28.47`**. Later on, we will refer to this IP as **`<MAAS IP>`**, and you will need to replace it with yours.
 
-Great work! Now you're ready to try out MAAS.
+Great work. Now you're ready to try out MAAS.
 
 <h2>Log into MAAS</h2>
 
@@ -148,7 +148,7 @@ You should see the MAAS log in page.  Log in with the username `admin` and passw
 The DNS in the DNS forwarder field should be pre-populated with `8.8.8.8`, but you can change it if you like to another DNS provider.
 
 > ⚠️ **Note**
-> During setup, you might notice the following text displayed as a banner: **"Boot image import process not started ... Visit the boot images page to start the import."** Don't worry, this will go away once MAAS has downloaded what it needs. Don't click on the link in the banner.
+> During setup, you might notice the following text displayed as a banner: **"Boot image import process not started ... Visit the boot images page to start the import."** This will go away once MAAS has downloaded what it needs. Don't click on the link in the banner.
 
 Scroll down and click the green **Continue** button. You should then see the **Images** screen. This is where you can tell MAAS which images to automatically download and keep synchronized.  For now, just leave the selections as they are and *Continue*.
 
@@ -162,7 +162,7 @@ Go to *KVM > LXD*. You should see a LXD server already set up for you.  Next, vi
 
 Finally, visit *Images*. If MAAS has finished syncing the Ubuntu images mentioned above, then you should see that the status says "Synced". If not, wait a few minutes and refresh the page.
 
-Once the images are synced, it's time for some fun – using MAAS to create our first VM guest with LXD!
+Once the images are synced, it's time for some fun – using MAAS to create our first VM guest with LXD.
 
 <h2>Create a VM guest</h2>
 
@@ -173,7 +173,7 @@ Return to *KVM > LXD* and select the link for the KVM host in the "NAME" column.
 * Set the storage to 8000 MiB
 * Set the CPU cores to 2
 
-When you're done, go ahead and *Compose machine*. Congrats! You've now created your first VM guest. We're almost done!
+When you're done, go ahead and *Compose machine*. Congrats. You've now created your first VM guest. We're almost done.
 
 <h2>Commissioning and deploying Ubuntu to the VM guest</h2>
 
@@ -181,7 +181,7 @@ MAAS should have already started commissioning the machine. When commissioning, 
 
 Visit *Machines* to see your new VM host in the list with a status of `Commissioning`.  Choose the machine for more details.  You can also go to *Commissioning* to watch commissioning progress live. When it's done, the machine will move into a `Ready` state.
 
-It's now time to deploy Ubuntu to the machine! Choose *Machines* > *AwesomeVM1*. Then choose *Actions* > *Deploy* > *Deploy machine*. You should see that MAAS starts deploying Ubuntu to the machine. It will take a while to deploy Ubuntu depending on the speed of your computer.
+It's now time to deploy Ubuntu to the machine. Choose *Machines* > *AwesomeVM1*. Then choose *Actions* > *Deploy* > *Deploy machine*. You should see that MAAS starts deploying Ubuntu to the machine. It will take a while to deploy Ubuntu depending on the speed of your computer.
 
 When it's done, assuming everything went well, you should now see the machine status changes to reflect the Ubuntu version installed. Great work - the machine is now ready for us to log in and verify that it is up and running. 
 
@@ -219,7 +219,7 @@ SSH into the VM guest by running the following command. Accept the authenticity 
 ssh ubuntu@<AwesomeVM1 IP>
 ```
 
-You should see that you are now in a shell on the AwesomeVM1 machine.  Great work!  Try pinging something on the internet from the machine:
+You should see that you are now in a shell on the AwesomeVM1 machine.  Great work.  Try pinging something on the internet from the machine:
 
 ```bash
 ping ubuntu.com
@@ -227,9 +227,9 @@ ping ubuntu.com
 
 Again, you should see a `ping` result similar to what you saw earlier.
 
-That's it! We've successfully created and deployed a VM *inside our Multipass VM* using MAAS and LXD. Fantastic work!  We now have our own MAAS and LXD environment!
+That's it. We've successfully created and deployed a VM *inside our Multipass VM* using MAAS and LXD. Fantastic work.  We now have our own MAAS and LXD environment.
 
-You've learned:
+Let's summarize the process:
 
 * How to install a MAAS and LXD playground environment using Multipass
 * How to create a VM guest

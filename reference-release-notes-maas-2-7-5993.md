@@ -1,26 +1,24 @@
-> *Errors or typos? Topics missing? Hard to read? <a href="https://docs.google.com/forms/d/e/1FAIpQLScIt3ffetkaKW3gDv6FDk7CfUTNYP_HGmqQotSTtj2htKkVBw/viewform?usp=pp_url&entry.1739714854=https://maas.io/docs/what-is-new-with-maas-2-7" target = "_blank">Let us know.</a>*
-
 ## MAAS 2.7.3 released
 
-On 24 August 2020, MAAS 2.7.3 was released, replacing the `2.7/stable` channel in snap and the [ppa:maas/2.7](https://launchpad.net/~maas/+archive/ubuntu/2.7)**^**. You can update your 2.7 release to 2.7.3 by with:
+On 24 August 2020, MAAS 2.7.3 was released, replacing the `2.7/stable` channel in snap and the [ppa:maas/2.7](https://launchpad.net/~maas/+archive/ubuntu/2.7). You can update your 2.7 release to 2.7.3 by with:
 
 ```nohighlight
     snap refresh --channel=2.7/stable
 ```
 
-or by using the PPA. The focus for this release has been [bug-fixing](https://launchpad.net/maas/+milestone/2.7.3rc1)**^** -- there were no changes to MAAS since RC1.
+or by using the PPA. The focus for this release has been [bug-fixing](https://launchpad.net/maas/+milestone/2.7.3rc1) -- there were no changes to MAAS since RC1.
 
 Thanks to everyone who reported the issues with previous 2.7 releases and helped us with the logs.
 
 ## MAAS 2.7.2 released
 
-On 30 July 2020, MAAS 2.7.2 was released, replacing the `2.7/stable` channel in snap and the [ppa:maas/2.7](https://launchpad.net/~maas/+archive/ubuntu/2.7)**^**. You can update your 2.7 release to 2.7.2 by with:
+On 30 July 2020, MAAS 2.7.2 was released, replacing the `2.7/stable` channel in snap and the [ppa:maas/2.7](https://launchpad.net/~maas/+archive/ubuntu/2.7). You can update your 2.7 release to 2.7.2 by with:
 
 ```nohighlight
     snap refresh --channel=2.7/stable
 ```
 
-or by using the aforementioned PPA. The focus for this release has been [bug-fixing](https://launchpad.net/maas/+milestone/2.7.2rc1)**^** -- there were no changes to MAAS since RC1.
+or by using the aforementioned PPA. The focus for this release has been [bug-fixing](https://launchpad.net/maas/+milestone/2.7.2rc1) -- there were no changes to MAAS since RC1.
 
 Thanks to everyone who reported the issues with previous 2.7 releases and helped us with the logs.
 
@@ -119,4 +117,4 @@ MAAS has switched hardware information gathering from lshw/lsblk to lxd output d
 
 ### Bug fixes
 
-A number of bug fixes (see the [list in Launchpad](https://bugs.launchpad.net/maas/+bugs?field.milestone%3Alist=87757&field.milestone%3Alist=89662&field.milestone%3Alist=89714&field.milestone%3Alist=89840&field.milestone%3Alist=89954&field.milestone%3Alist=89682&field.status%3Alist=FIXRELEASED))**^**.
+A number of bug fixes (see the [list in Launchpad](https://bugs.launchpad.net/maas/+bugs?field.milestone%3Alist=87757&field.milestone%3Alist=89662&field.milestone%3Alist=89714&field.milestone%3Alist=89840&field.milestone%3Alist=89954&field.milestone%3Alist=89682&field.status%3Alist=FIXRELEASED)).

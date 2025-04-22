@@ -31,7 +31,7 @@ The node is broken. See node action 'Mark broken'.
 
 #### Client
 
-In the client/server age, the lines between client and server are blurred and sometimes reversible. For the purposes of MAAS and general networking principles, we can define a [client](https://en.wikipedia.org/wiki/Client_%28computing%29#firstHeading)**^** as a node that uses shared resources via a network. If that same client provides shared resources to other nodes, it could also be considered a server. 
+In the client/server age, the lines between client and server are blurred and sometimes reversible. For the purposes of MAAS and general networking principles, we can define a [client](https://en.wikipedia.org/wiki/Client_%28computing%29#firstHeading) as a node that uses shared resources via a network. If that same client provides shared resources to other nodes, it could also be considered a server. 
 
 
 #### Cloud-init
@@ -146,7 +146,7 @@ DHCP operates using the four-step "DORA" model -- Discovery, Offer, Request, and
 
 - The DHCP server responds with a DHCPACK (acknowledgement) which includes various important configuration parameters, such as the lease duration.
 
-Of course, there is [much more to DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)**^**, but what's covered here should be sufficient understanding for using MAAS.
+Of course, there is [much more to DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol), but what's covered here should be sufficient understanding for using MAAS.
 
 #### DHCP relay
 
@@ -218,7 +218,7 @@ The node failed to deploy.
 
 #### Hub
 
-[Hubs](https://en.wikipedia.org/wiki/Ethernet_hub#firstHeading)**^** essentially started as repeaters. While they may be able to connect more than two computers together (i.e., multiple RJ45 ports)**^**, they provide no improvement over simple bus networks, since every connected NIC must examine every packet. They are rarely used any more.
+[Hubs](https://en.wikipedia.org/wiki/Ethernet_hub#firstHeading) essentially started as repeaters. While they may be able to connect more than two computers together (i.e., multiple RJ45 ports), they provide no improvement over simple bus networks, since every connected NIC must examine every packet. They are rarely used any more.
 
 #### Hugepages
 
@@ -260,7 +260,7 @@ When used with VMs, users can maximise performance by configuring isolcpus in th
 
 #### LAN
 
-Besides topology, networks can also be classified by their size, range, or "reach."  One such classification is the [Local Area Network (LAN)](https://en.wikipedia.org/wiki/Local_area_network#firstHeading)**^**, which connects computers in close proximity (about 300 feet)**^**.
+Besides topology, networks can also be classified by their size, range, or "reach."  One such classification is the [Local Area Network (LAN)](https://en.wikipedia.org/wiki/Local_area_network#firstHeading), which connects computers in close proximity (about 300 feet).
 
 #### Locked
 
@@ -278,7 +278,7 @@ A locked machine has a padlock symbol next to its name.
 
 #### MAC address
 
-A [MAC address](https://en.wikipedia.org/wiki/MAC_address#firstHeading)**^** or "media access control" address is a unique address or "physical address" associated with a network interface. They are 48 bits in length, which allows for 280 trillion devices, arranged into six hexadecimal octets, separated by colons or dashes. Every computer in the world theoretically has a unique MAC address. You can identify a node's IP address with the command `ipconfig /all`.
+A [MAC address](https://en.wikipedia.org/wiki/MAC_address#firstHeading) or "media access control" address is a unique address or "physical address" associated with a network interface. They are 48 bits in length, which allows for 280 trillion devices, arranged into six hexadecimal octets, separated by colons or dashes. Every computer in the world theoretically has a unique MAC address. You can identify a node's IP address with the command `ipconfig /all`.
 
 #### Machine actions
 
@@ -299,7 +299,7 @@ Some aspects of a node can only be modified when a node has a certain status. He
 
 #### MAN
 
-A [metro area network or MAN](https://en.wikipedia.org/wiki/Metropolitan_area_network#firstHeading)**^** connects LANs over a smaller area, like a city or urban footprint. Basically, if it isn't really a WAN, but you can't connect it with cables, it's usually considered a MAN.
+A [metro area network or MAN](https://en.wikipedia.org/wiki/Metropolitan_area_network#firstHeading) connects LANs over a smaller area, like a city or urban footprint. Basically, if it isn't really a WAN, but you can't connect it with cables, it's usually considered a MAN.
 
 #### Mark broken
 
@@ -320,7 +320,7 @@ This action fixes a broken node, changing its status from 'Broken' to 'Ready'.
 
 #### Network cable
 
-[Network cables](https://en.wikipedia.org/wiki/Category_5_cable#firstHeading)**^** are special cables that connect non-wireless-based nodes. They consist of our pairs of insulated, 24-gauge wire, colour-coded (solid/striped)**^**, usually in four colours: blue, green, orange, and brown. The matching colour pairs are twisted together, each pair at a different turn rate to prevent electromagnetic interference between pairs.
+[Network cables](https://en.wikipedia.org/wiki/Category_5_cable#firstHeading) are special cables that connect non-wireless-based nodes. They consist of our pairs of insulated, 24-gauge wire, colour-coded (solid/striped), usually in four colours: blue, green, orange, and brown. The matching colour pairs are twisted together, each pair at a different turn rate to prevent electromagnetic interference between pairs.
 These twists must be maintained all the way up to the (RJ45) connector.
 
 Even with insulation, careful twisting, and connector-termination, natural losses in the cable cause the network signals to become too weak to maintain reliable data rates after a certain length. In the case of Cat 5e cable, the maximum cable length is 100 meters to maintain 1Gb per second. For Cat 6, the max length to maintain 10Gb per second is 55 meters. These limits are overcome with [repeaters](#heading--repeater), which amplify the signal and relay it to the next repeater or NIC.
@@ -336,7 +336,7 @@ A network interface, often referred to as a "network interface card" or NIC, is 
 
 #### Network topology
 
-[Topology](https://en.wikipedia.org/wiki/Network_topology#mw-content-text)**^** describes how nodes are connected to a network, specifically referring to the shapes made by the cables and the paths that packets can take. There are probably as many topologies are there are shapes, but here are some of the most common:
+[Topology](https://en.wikipedia.org/wiki/Network_topology#mw-content-text) describes how nodes are connected to a network, specifically referring to the shapes made by the cables and the paths that packets can take. There are probably as many topologies are there are shapes, but here are some of the most common:
 
 - Bus topology: the most basic network topology, a group of computers connected to a single, long cable. In this configuration, every computer sees every packet. A [hub](#heading--hub) network, for instance, is still a bus topology, because every machine sees every packet.
 
@@ -374,7 +374,7 @@ There is more flexibility in creating affinity when using virtual machines, beca
 
 In practice, this means that VMs would be "pinned" to specific cores to create stability. While the user has the choice of how to pin VMs, MAAS provides visual information that helps the user see how VMs are allocated to physical hardware, and make adjustments if that arrangement isn't (or turns out not to be) optimal.
 
-If you want to dig deeper, there is a [more through treatment of NUMA](https://en.wikipedia.org/wiki/Non-uniform_memory_access)**^** on Wikipedia.
+If you want to dig deeper, there is a [more through treatment of NUMA](https://en.wikipedia.org/wiki/Non-uniform_memory_access) on Wikipedia.
 
 ### O
 
@@ -399,13 +399,13 @@ An added repository can be disabled and re-enabled using a toggle switch to the 
 
 #### Patch panel
 
-A [patch panel](https://en.wikipedia.org/wiki/Patch_panel#firstHeading)**^** is simply a 24- to 48-port panel of connectors that can link together three- to ten-foot cables. A patch panel allows jumpers from network runs to devices in racks, without putting strain and "cable creep" on long runs.
+A [patch panel](https://en.wikipedia.org/wiki/Patch_panel#firstHeading) is simply a 24- to 48-port panel of connectors that can link together three- to ten-foot cables. A patch panel allows jumpers from network runs to devices in racks, without putting strain and "cable creep" on long runs.
 
 #### Personal Package Archives (PPA)
 
-A Personal Package Archive (PPA) is a [Launchpad](https://launchpad.net)-based method for any individual (or team)**^** to build and distribute packages for Ubuntu.
+A Personal Package Archive (PPA) is a [Launchpad](https://launchpad.net)-based method for any individual (or team) to build and distribute packages for Ubuntu.
 
-Adding a PPA is equally straightforward. Using the [`sosreport` PPA](https://launchpad.net/~canonical-support/+archive/ubuntu/support-tools)**^** as an example, first retrieve the PPA's address from its page on Launchpad:
+Adding a PPA is equally straightforward. Using the [`sosreport` PPA](https://launchpad.net/~canonical-support/+archive/ubuntu/support-tools) as an example, first retrieve the PPA's address from its page on Launchpad:
 
 `ppa:canonical-support/support-tools`
 
@@ -417,7 +417,7 @@ To add this PPA, then, hit the 'Add repository' button and fill in the fields. B
 
 Click 'Add repository' to save the configuration.
 
-See [Launchpad PPAs](https://help.launchpad.net/Packaging/PPA)**^** for more information on PPAs.
+See [Launchpad PPAs](https://help.launchpad.net/Packaging/PPA) for more information on PPAs.
 
 #### Physical
 
@@ -454,7 +454,7 @@ The user has the opportunity to erase the node's storage (disks) before confirmi
 
 #### Repeater
 
-Technically, a [repeater](https://en.wikipedia.org/wiki/Repeater#firstHeading)**^** is a network signal amplifier with two RJ45 connectors which adds one maximum length (for the cable type) to the network connection or "run."  In practice, repeaters usually come in the form of [hubs](#heading--hub) or [switches](#heading--switch)**^**, which can usually perform other functions as well.
+Technically, a [repeater](https://en.wikipedia.org/wiki/Repeater#firstHeading) is a network signal amplifier with two RJ45 connectors which adds one maximum length (for the cable type) to the network connection or "run."  In practice, repeaters usually come in the form of [hubs](#heading--hub) or [switches](#heading--switch), which can usually perform other functions as well.
 
 #### Rescue mode
 
@@ -470,7 +470,7 @@ The node is in rescue mode and is ready to accept SSH connections. See node acti
 
 #### Router
 
-A [router](https://en.wikipedia.org/wiki/Router_%28computing%29#firstHeading)**^** is a device that transfers packets from one network to another. Unlike switches, which only ensure that pre-addressed packets get to the correct recipient machines, routers actually modify or encapsulate packets to ensure that they can travel on other networks to reach a remote destination. Choices about routing are so important that we'll spend a [great deal of time on the subject](#heading--routing-still-rules)**^** when we learn about cloud networking.
+A [router](https://en.wikipedia.org/wiki/Router_%28computing%29#firstHeading) is a device that transfers packets from one network to another. Unlike switches, which only ensure that pre-addressed packets get to the correct recipient machines, routers actually modify or encapsulate packets to ensure that they can travel on other networks to reach a remote destination. Choices about routing are so important that we'll spend a [great deal of time on the subject](#heading--routing-still-rules) when we learn about cloud networking.
 ### S
 
 #### Series
@@ -479,7 +479,7 @@ A series is essentially an operating system version. For Ubuntu, a series takes 
 
 #### Server
 
-A [server](https://en.wikipedia.org/wiki/Server_%28computing%29#Classes_of_computers)**^** is a node that provides shared resources to clients via a network. If that same server uses shared resources from other nodes, it could also be considered a client, but only in that context.
+A [server](https://en.wikipedia.org/wiki/Server_%28computing%29#Classes_of_computers) is a node that provides shared resources to clients via a network. If that same server uses shared resources from other nodes, it could also be considered a client, but only in that context.
 
 
 #### Set Zone
@@ -490,7 +490,7 @@ This action puts the node in a specific zone.
 
 A space is a logical grouping of subnets that can communicate with one another. Spaces can be arranged to group subnets according to various parameters. One of the most common examples is a DMZ space, which might group subnets presenting a web interface to the public Internet. Behind this DMZ would be specific applications that aren't allowed to interact directly with the user, but instead must interact with a Web UI in the DMZ space. MAAS does not create a default space during installation.
 
-Spaces facilitate machine allocation for [Juju](https://jaas.ai/)**^**. See [Juju network spaces](https://jaas.ai/docs/spaces)**^** for more details.
+Spaces facilitate machine allocation for [Juju](https://jaas.ai/). See [Juju network spaces](https://jaas.ai/docs/spaces) for more details.
 
 #### SR-IOV
 
@@ -500,7 +500,7 @@ Many smart NICs are able to sort network packets into queues, based on MAC addre
 
 With SR-IOV, it's possible to have no core interrupts when packets come in. SR-IOV creates "virtual functions," with dedicated queues for transmitting and receiving. Each VM is directly assigned hardware resources via a virtual function driver, which knows how to DMA-copy data directly between the NIC and the memory space of the relevant VM. Essentially, SR-IOV is like a "jumper wire" between the NIC and the VM, bypassing the core. This prevents interrupting the core when packets arrive for it, and significantly reduces the core workload when sending network packets.
 
-For a deeper dive, try this [SR-IOV presentation](https://www.youtube.com/watch?v=hRHsk8Nycdg)**^** from Intel.
+For a deeper dive, try this [SR-IOV presentation](https://www.youtube.com/watch?v=hRHsk8Nycdg) from Intel.
 
 #### Subnets
 
@@ -515,7 +515,7 @@ A subnet is a "layer 3" network, defined by a network address and a network mask
 
 #### Switch
 
-A [switch](https://en.wikipedia.org/wiki/Network_switch#firstHeading)**^** is a "smart" device that connects cables from nodes to make networks. Like a hub, a switch amplifies signals, that is, it acts as a repeater. Switches learn by induction which cables receive which IP addresses. Over time a switch will direct each packet only to devices which indicate that they will accept the addresses associated with those packets.
+A [switch](https://en.wikipedia.org/wiki/Network_switch#firstHeading) is a "smart" device that connects cables from nodes to make networks. Like a hub, a switch amplifies signals, that is, it acts as a repeater. Switches learn by induction which cables receive which IP addresses. Over time a switch will direct each packet only to devices which indicate that they will accept the addresses associated with those packets.
 
 ## T-Z
 ### T
@@ -581,7 +581,7 @@ VM hosts, also called composable hardware, allow for the dynamic composition of 
 ### W
 #### WAN
 
-A [WAN (wide area network)](https://en.wikipedia.org/wiki/Wide_area_network#firstHeading)**^** is a network which connects LANs across large geographic distances, e.g., thousands of miles.
+A [WAN (wide area network)](https://en.wikipedia.org/wiki/Wide_area_network#firstHeading) is a network which connects LANs across large geographic distances, e.g., thousands of miles.
 
 ### Z
 
