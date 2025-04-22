@@ -1,3 +1,5 @@
+MAAS can be installed from snap or Debian packages, and configured for a Proof-of-Concept (POC) or a production environment.
+
 ## Install MAAS (snap or packages)
 
 * **Install from [snap](https://snapcraft.io/maas):**
