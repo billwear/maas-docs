@@ -1,10 +1,4 @@
-MAAS supports two SimpleStreams: candidate and stable. Both contain Ubuntu, CentOS, bootloaders, and release notifications. MAAS defaults to stable.  MAAS standard provisioning images include:
-
-- Ubuntu and CentOS OS images.
-- Bootloaders extracted from the Ubuntu archive.
-- Release notifications.
-
-MAAS syncs images hourly at the region level. Rack controller syncs run every 5 minutes. MAAS can only work with one boot source at a time.
+MAAS relies on a repository of OS images for machine deployment, called a SimpleStreams source.  There are two streams: candidate and stable; MAAS defaults to stable.  Both contain either Ubuntu or CentOS, a bootloader, an initial RAMdisk filesystem, and release notifications.  MAAS syncs images hourly at the region level. Rack controller syncs run every 5 minutes. 
 
 ## Switch image streams
 
