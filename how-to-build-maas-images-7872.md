@@ -1,4 +1,4 @@
-This guide covers building custom images for the following operating systems using Packer for deployment in MAAS:
+Using packer, you can build custom, MAAS-deployable images for the following operating systems:
 
 - RHEL 7
 - RHEL 8
