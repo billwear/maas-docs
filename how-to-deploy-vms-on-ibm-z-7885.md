@@ -1,6 +1,4 @@
-This page explains how to deploy virtual machines on the IBM Z series.
-
-*MAAS 2.9 does not support IBM Z*
+You can deploy virtual machines on the IBM Z series with MAAS version 3.0 or higher.
 
 The IBM Z or LinuxONE system can host MAAS controllers and is able to deploy predefined logical partitions (LPARs) KVM host(s), and virtual machines, if the mainframe is set up properly for MAAS.
 
