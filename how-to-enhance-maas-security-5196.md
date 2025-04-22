@@ -1,4 +1,4 @@
-Enhance MAAS security along many different vectors.
+MAAS security depends on encryption, logging, and user access management.  This document describes how to keep all of these in reliable working order.
 
 ## Use TLS termination (MAAS 3.3+)
 
