@@ -1,4 +1,4 @@
-MAAS uses standard command-line utilities for simple, familiar backups.
+MAAS uses standard command-line utilities for simple, familiar backups.  The options described here allow you to either back up and restore everything MAAS-related, or just back up key packages and files.
 
 ## Clean reset backup
 
@@ -61,7 +61,7 @@ Uses `pg_dumpall`. Fully overwrites MAAS and PostgreSQL on restore.
    sudo snap restart maas
    ```
 
-## Clean package backup
+## Package backup
 
 Backs up PostgreSQL and key MAAS files.
 
