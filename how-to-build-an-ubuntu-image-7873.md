@@ -1,4 +1,4 @@
-This page explains how to build a deployable Ubuntu image with packer.
+You can build build your own customized, deployable Ubuntu image with packer.
 
 ## Install packer
 
