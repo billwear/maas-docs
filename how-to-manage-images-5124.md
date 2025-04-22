@@ -1,6 +1,10 @@
-MAAS relies on a repository of OS images for machine deployment, called a SimpleStreams source.  There are two streams: candidate and stable; MAAS defaults to stable.  Both contain either Ubuntu or CentOS, a bootloader, an initial RAMdisk filesystem, and release notifications.  MAAS syncs images hourly at the region level. Rack controller syncs run every 5 minutes. 
+MAAS relies on a repository of OS images for machine deployment, called a SimpleStreams source.  There are two streams: candidate and stable.  The stable stream is fully tested, reliable, and generally considered production-ready.  Candidate images are essentially pre-release images -- they are newer, so they may have bugs or incomplete testing. Use the stable stream if you're deploying machines in production, and candidate if you need support for a newer OS version that is not yet stable. MAAS defaults to stable if you do not make a choice.
+
+Both contain either Ubuntu or CentOS, a bootloader, an initial RAMdisk filesystem, and release notifications.  MAAS syncs images hourly at the region level. Rack controller syncs run every 5 minutes. 
 
 ## Switch image streams
+
+You can switch streams at any time using these procedures:
 
 **UI**
 *Images* > *Change source* > *Custom* > set *URL* to:
@@ -13,6 +17,8 @@ BOOT_SOURCE_ID=$(maas $PROFILE boot-sources read)
 ```
 
 ## Manage images
+
+Choose which images to keep locally.  Images must be downloaded before they can be deployed.
 
 **UI**
 *Main menu* > *Images* > *Select/Unselect* > *Save selection*
