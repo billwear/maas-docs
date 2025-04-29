@@ -262,7 +262,7 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | /docs/deb/2.9/cli/event-logs                            | /docs/about-maas-logging                                                        |
 | /docs/delving-into-maas-logging-practices               | /docs/about-maas-logging                                                        |
 | /docs/event-logging-and-auditing                        | /docs/about-maas-logging                                                        |
-| /docs/event-logs-reference                              | /docs/about-maas-logging                                                        |
+| /docs/event-log-reference                               | /docs/about-maas-logging                                                        |
 | /docs/interpreting-testing-logs                         | /docs/about-maas-logging                                                        |
 | /docs/monitoring-and-logging                            | /docs/about-maas-logging                                                        |
 | /docs/about-cloud-networking                            | /docs/about-maas-networking                                                     |
@@ -465,8 +465,13 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | /docs/snap/2.8/ui/how-to-install-maas                   | /docs/how-to-install-maas                                                       |
 | /docs/snap/2.8/ui/installation                          | /docs/how-to-install-maas                                                       |
 | /docs/upgrading-maas                                    | /docs/how-to-install-maas                                                       |
+| /docs/snap/ui/ui/installation                           | /docs/how-to-install-maas                                                       |
+| /docs/language-details-contributing-to-maas-docs        | /docs/how-to-contribute-to-maas-documentation                                   |
 | /docs/configuring-maas-controllers                      | /docs/how-to-manage-controllers                                                 |
+| /docs/intel-rack-scale-design-rsd-introduction          | /docs                                                                           |
 | /docs/controller-configuration                          | /docs/how-to-manage-controllers                                                 |
+| /docs/rsd-storage                                       | /docs                                                                           |
+| /docs/hardware-testing-scripts-reference                | /docs/reference-hardware-test-scripts                                           |
 | /docs/how-to-adjust-your-controllers                    | /docs/how-to-manage-controllers                                                 |
 | /docs/how-to-configure-controllers                      | /docs/how-to-manage-controllers                                                 |
 | /docs/how-to-tune-controllers                           | /docs/how-to-manage-controllers                                                 |
@@ -696,6 +701,7 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | /docs/audit-event-logs-reference                        | /docs/maas-logging-reference#p-21778-audit-logs                                 |
 | /docs/audit-event-logging-and-auditing                  | /docs/maas-logging-reference#p-21778-audit-logs                                 |
 | /docs/tips-tricks-and-traps                             | /docs/maas-troubleshooting-guide                                                |
+| /docs/tips-and-tricks                                   | /docs/maas-troubleshooting-guide                                                |
 | /docs/deb/2.9/cli/tips-tricks-and-traps                 | /docs/maas-troubleshooting-guide                                                |
 | /docs/test-log-reference                                | /docs/maas-logging-reference                                                    |
 | /docs/deb/2.9/ui/tips-tricks-and-traps                  | /docs/maas-troubleshooting-guide                                                |
