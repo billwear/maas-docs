@@ -794,5 +794,5 @@ Considering MAAS for your next project? [Get in touch](/t/how-to-contact-us/5448
 | /docs/snap/2.8/ui/network-discovery                     | /docs/about-maas-networking#p-20679-network-discovery                           |
 | /docs/snap/2.8/ui/vm-host-networking                    | /docs/about-maas-networking                                                     |
 | /docs/snap/2.8/ui/tags-and-annotations                  | /docs/about-machine-groups#p-22953-managing-tags-and-annotations                |
-| /docs/vm-hosting#heading--about-vm-host-storage-pools   | /docs/about-machine-basics                                                      |
+| /docs/vm-hosting                                        | /docs/about-machine-basics                                                      |
 [/details]
